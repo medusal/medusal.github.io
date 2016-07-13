@@ -9,16 +9,16 @@
 .bs-docs-nav .navbar-brand,
 .bs-docs-nav .navbar-nav>li>a {
     font-weight: 500;
-    color: #563d7c
+    color: $text-color;
 }
 .bs-docs-nav .navbar-nav>.active>a,
 .bs-docs-nav .navbar-nav>.active>a:hover,
 .bs-docs-nav .navbar-nav>li>a:hover {
-    color: #463265;
+    color: $text-color;
     background-color: #f9f9f9
 }
 .bs-docs-nav .navbar-toggle .icon-bar {
-    background-color: #563d7c
+    background-color: $text-color;
 }
 .bs-docs-nav .navbar-header .navbar-toggle {
     border-color: #fff

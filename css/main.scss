@@ -3,6 +3,9 @@
 ---
 @charset "utf-8";
 
+
+$text-color: #555;
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap", "bs-docs-nav", "bs-docs-footer", "font-awesome", "syntax-highlighting";
 
