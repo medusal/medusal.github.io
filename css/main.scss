@@ -6,13 +6,6 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap", "bs-docs-nav", "bs-docs-footer", "font-awesome", "syntax-highlighting";
 
-section.green-light {
-  height: 100vh;
-  margin: 0;  
-  background: radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623);
-  color: #363c44;
-}
-
 .bubble {
   animation: fade 10s infinite;
   background: lighten(#1ea623, 20%);
@@ -31,4 +24,43 @@ section.green-light {
       bottom: 120%;
     }
   }
+}
+
+.white {
+  color: white;
+}
+
+.btn-outline-white {
+    background-color: transparent !important;
+    border-color: #fff !important;
+    border-radius: .25em !important;
+    &:not(:hover), &:not(:hover) {
+      color: #fff !important;
+    }
+    &:hover, &:active {
+      background-color: #fff !important;
+      border-color: #fff !important;
+    }
+}
+
+section.green-light {
+  background: radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623);
+  color: #1ea623;
+}
+
+section.jumbotron {
+  margin: 0;
+}
+
+section.wallpaper-background {
+  position: relative;
+  background-color: #3c465a;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./img/home/hands.png)
+}
+
+section.presentation {
+  
 }

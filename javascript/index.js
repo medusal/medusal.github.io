@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var bubbles = document.getElementById('bubbles')
+  var bubbles = document.getElementsByClassName('bubbles')[0]
   if (bubbles) {
     var randomN = function(start, end){
       return Math.random()*end+start
@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    console.log('bubbles', bubbles)
     generateBubble()
 
     var inter = setInterval(generateBubble, 500);
