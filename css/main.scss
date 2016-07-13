@@ -9,6 +9,10 @@ $text-color: #555;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap", "bs-docs-nav", "bs-docs-footer", "font-awesome", "syntax-highlighting";
 
+.navbar {
+  box-shadow: 0 1px 3px 0 #bfbfbf;
+}
+
 .bubble {
   animation: fade 10s infinite;
   background: lighten(#1ea623, 20%);
