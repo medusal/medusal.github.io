@@ -35,17 +35,32 @@ $text-color: #555;
 }
 
 .btn-outline-white {
-    background-color: transparent !important;
+  background-color: transparent !important;
+  border-color: #fff !important;
+  border-radius: .25em !important;
+  &:not(:hover), &:not(:hover) {
+    color: #fff !important;
+  }
+  &:hover, &:active {
+    background-color: #fff !important;
     border-color: #fff !important;
-    border-radius: .25em !important;
-    &:not(:hover), &:not(:hover) {
-      color: #fff !important;
-    }
-    &:hover, &:active {
-      background-color: #fff !important;
-      border-color: #fff !important;
-    }
+  }
 }
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  border-color: $brand-primary !important;
+  border-radius: .25em !important;
+  &:not(:hover), &:not(:hover) {
+    color: $brand-primary !important;
+  }
+  &:hover, &:active {
+    background-color: $brand-primary !important;
+    border-color: $brand-primary !important;
+    color: white;
+  }
+}
+
 
 section.bubbles {
   position: relative;
