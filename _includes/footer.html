@@ -1,7 +1,11 @@
 <footer class="bs-docs-footer" role="contentinfo">
   <div class="container">
     <ul class="bs-docs-footer-links">
-      <li><a href="./about/">About</a></li>
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
     </ul>
     <p>SAS medusal</p>
     <p>9 rue Gerbert</p>
