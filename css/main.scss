@@ -38,6 +38,10 @@ $text-color: #555;
   color: white !important;
 }
 
+.gradient-bottom {
+  background-image: linear-gradient(to top, #e5e8e7, rgba(229,232,231,0) 60px)
+}
+
 .btn-outline-white {
   background-color: transparent !important;
   border-color: #fff !important;
