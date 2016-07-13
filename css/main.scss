@@ -15,7 +15,7 @@
 
   @keyframes fade {
     from {
-      bottom: -2.4rem;
+      bottom: 0%;
       opacity: 1;
       visibility: visible;
     }
@@ -41,6 +41,10 @@
       background-color: #fff !important;
       border-color: #fff !important;
     }
+}
+
+section.bubbles {
+  position: relative;
 }
 
 section.green-light {
