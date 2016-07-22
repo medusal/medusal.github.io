@@ -1,9 +1,10 @@
 <footer class="bs-docs-footer" role="contentinfo">
-  <div class="container">
+  <div class="container-fluid">
     <ul class="bs-docs-footer-links">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+      {% assign pages = site.pages | sort:"weight"  %}
+      {% for my_page in pages %}
+        {% if my_page.footer_name %}
+          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.footer_name }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>

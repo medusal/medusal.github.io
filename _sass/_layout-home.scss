@@ -1,0 +1,57 @@
+section.green-light {
+  background: radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623);
+  color: #1ea623;
+}
+
+section.wallpaper-background {
+  position: relative;
+  background-color: #3c465a;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./img/home/hands.png);
+}
+
+.jumbotron {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.25),0 1px 30px rgba(0,0,0,0.75);
+
+  .logo{
+    text-align: left;
+  }
+  h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.15;
+  }
+  .btn {
+    margin-top: 30px;
+    &:hover {
+      text-shadow: none;
+    }
+  }
+  p {
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: $grid-float-breakpoint) {
+  .jumbotron {
+    text-align: left; 
+
+    h1 {
+      max-width: 550px;
+      font-size: 48px;
+    }
+    p {
+      max-width: 700px;
+      font-size: 30px;
+    }
+  }
+}

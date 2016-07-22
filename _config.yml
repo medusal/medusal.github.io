@@ -17,3 +17,4 @@ github_username:  bbenezech
 
 # Build settings
 markdown: kramdown
+include: ['_pages']

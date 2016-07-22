@@ -1,0 +1,26 @@
+.navbar {
+  box-shadow: 0 1px 3px 0 #bfbfbf;
+}
+
+@media (max-width: $grid-float-breakpoint) {
+  .navbar-nav li {
+    &:first-child {
+      border-top: 1px solid lightgrey;
+    }
+    &:not(:last-child) {
+      border-bottom: 1px solid lightgrey;
+    }
+    a {
+      background: none !important;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+@media (min-width: $grid-float-breakpoint) {
+  .navbar-nav .active a {
+    border-bottom: 5px solid;
+    margin-bottom: -5px;
+  }
+}

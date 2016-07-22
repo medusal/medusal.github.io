@@ -1,5 +1,5 @@
 <nav class="navbar navbar-static-top bs-docs-nav">
-  <div class="container">
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -13,9 +13,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+        {% assign pages = site.pages | sort:"weight"  %}
+        {% for my_page in pages %}
+          {% if my_page.nav_name %}
+            {% if my_page.url == page.url %}
+              <li class="active">
+                <a href="{{ my_page.url | prepend: site.baseurl }}" style="color: {{ my_page.color | default: 'inherit' }}">
+                  {{ my_page.nav_name }}
+                </a>
+                </li>
+            {% else %}
+              <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_name }}</a></li>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </ul>

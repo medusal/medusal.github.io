@@ -3,95 +3,18 @@
 ---
 @charset "utf-8";
 
-
-$text-color: #555;
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "bootstrap", "bs-docs-nav", "bs-docs-footer", "font-awesome", "syntax-highlighting";
-
-.navbar {
-  box-shadow: 0 1px 3px 0 #bfbfbf;
-}
-
-.bubble {
-  animation: fade 10s infinite;
-  background: lighten(#1ea623, 20%);
-  border-radius: 100%;
-  position: absolute;
-  visibility: hidden;
-
-  @keyframes fade {
-    from {
-      bottom: 0%;
-      opacity: 1;
-      visibility: visible;
-    }
-
-    to {
-      opacity: .1;
-      bottom: 95%;
-    }
-  }
-}
-
-.white {
-  color: white !important;
-}
-
-.gradient-bottom {
-  background-image: linear-gradient(to top, #e5e8e7, rgba(229,232,231,0) 60px)
-}
-
-.btn-outline-white {
-  background-color: transparent !important;
-  border-color: #fff !important;
-  border-radius: .25em !important;
-  &:not(:hover), &:not(:hover) {
-    color: #fff !important;
-  }
-  &:hover, &:active {
-    background-color: #fff !important;
-    border-color: #fff !important;
-  }
-}
-
-.btn-outline-primary {
-  background-color: transparent !important;
-  border-color: $brand-primary !important;
-  border-radius: .25em !important;
-  &:not(:hover), &:not(:hover) {
-    color: $brand-primary !important;
-  }
-  &:hover, &:active {
-    background-color: $brand-primary !important;
-    border-color: $brand-primary !important;
-    color: white;
-  }
-}
-
-
-section.bubbles {
-  position: relative;
-}
-
-section.green-light {
-  background: radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623);
-  color: #1ea623;
-}
-
-section.jumbotron {
-  margin: 0;
-}
-
-section.wallpaper-background {
-  position: relative;
-  background-color: #3c465a;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(./img/home/hands.png)
-}
-
-section.presentation {
-  
-}
+@import "bootstrap-variables";
+@import "bootstrap";
+@import "bs-docs-nav";
+@import "navbar";
+@import "bs-docs-footer";
+@import "font-awesome";
+@import "syntax-highlighting";
+@import "layout-home";
+@import "layout-default";
+@import "bubbles";
+@import "utils";
+@import "buttons";
+@import "style";
+@import "hacks";
