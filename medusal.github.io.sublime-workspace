@@ -1,0 +1,1842 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"start",
+				"start_with"
+			],
+			[
+				"spec",
+				"specified"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"con",
+				"constraints"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"render",
+				"renderPrescriptions"
+			],
+			[
+				"pla",
+				"planning_header"
+			],
+			[
+				"date",
+				"dateRange"
+			],
+			[
+				"js",
+				"jsTranslations"
+			],
+			[
+				"Pr",
+				"Prescription"
+			],
+			[
+				"pres",
+				"prescription"
+			],
+			[
+				"pre",
+				"prescription"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"no",
+				"note"
+			],
+			[
+				"Pre",
+				"prescription"
+			],
+			[
+				"contact",
+				"contactPhone"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"cons",
+				"constants"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"a",
+				"alignement"
+			],
+			[
+				"reac",
+				"reactNode"
+			],
+			[
+				"presc",
+				"prescription"
+			],
+			[
+				"destroy",
+				"formDestroy"
+			],
+			[
+				"fo",
+				"formOpened"
+			],
+			[
+				"null",
+				"null"
+			],
+			[
+				"new",
+				"isNewPatient"
+			],
+			[
+				"handle",
+				"handleSave"
+			],
+			[
+				"ac",
+				"actionRequested"
+			],
+			[
+				"rend",
+				"renderNote"
+			],
+			[
+				"path",
+				"pathChunks"
+			],
+			[
+				"Pro",
+				"PropTypes"
+			],
+			[
+				"pat",
+				"patient"
+			],
+			[
+				"pati",
+				"patientId"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"c",
+				"cwr\tReact: componentWillReceiveProps(np) {…}"
+			],
+			[
+				"re",
+				"reactNode"
+			],
+			[
+				"unit",
+				"unit_plural"
+			],
+			[
+				"img",
+				"imgWidth"
+			],
+			[
+				"font",
+				"fontSize"
+			],
+			[
+				"tab",
+				"tabIndex"
+			],
+			[
+				"form",
+				"formKey"
+			],
+			[
+				"col-",
+				"col-sm-2"
+			],
+			[
+				"pr",
+				"prescription"
+			],
+			[
+				"props",
+				"propTypes"
+			],
+			[
+				"next",
+				"nextProps"
+			],
+			[
+				"inde",
+				"indexProgress"
+			],
+			[
+				"cwu",
+				"cwun\tReact: componentWillUnmount() {…}"
+			],
+			[
+				"on",
+				"onDrugsFrComplete"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"cwr",
+				"cwr\tReact: componentWillReceiveProps(np) {…}"
+			],
+			[
+				"sc",
+				"scu\tReact: shouldComponentUpdate: fn(np, ns) { ... }"
+			],
+			[
+				"before",
+				"before"
+			],
+			[
+				"N",
+				"Navbar"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"cw",
+				"cwr\tReact: componentWillReceiveProps: fn(np) { ... }"
+			],
+			[
+				"disc",
+				"disconnectNavigator"
+			],
+			[
+				"conn",
+				"connectNavigator"
+			],
+			[
+				"version",
+				"version"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"comp",
+				"components"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"ne",
+				"newState"
+			],
+			[
+				"click_",
+				"click_button"
+			],
+			[
+				"rcc",
+				"rcc\tReact: class component"
+			],
+			[
+				"P",
+				"propTypes"
+			],
+			[
+				"R",
+				"ReduxRouter"
+			],
+			[
+				"is",
+				"isRequired"
+			],
+			[
+				"Patients",
+				"Patients"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"revisions_",
+				"revisions_from_hash"
+			],
+			[
+				"ran",
+				"random_id"
+			],
+			[
+				"all_",
+				"all_versions"
+			],
+			[
+				"ver",
+				"version"
+			],
+			[
+				"_rev",
+				"_revisions"
+			],
+			[
+				"_",
+				"_revisions"
+			],
+			[
+				"create",
+				"create_doc"
+			],
+			[
+				"remo",
+				"remoteDb"
+			],
+			[
+				"deleted",
+				"deleted"
+			],
+			[
+				"pass",
+				"user_password_confirmation"
+			],
+			[
+				"confi",
+				"configure"
+			],
+			[
+				"if",
+				"if\tif … end"
+			],
+			[
+				"bookin",
+				"booking_quotas"
+			],
+			[
+				"SECRE",
+				"SECRET_KEY_BASE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_sass/_bootstrap.scss",
+			"settings":
+			{
+				"buffer_size": 1552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Guardfile",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_navbar.scss",
+			"settings":
+			{
+				"buffer_size": 491,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 119 files for \"main.scss\" (case sensitive)\n\n0 matches\n\nSearching 119 files for \"main.css\" (case sensitive)\n\n/Users/ben/code/medusal.github.io/_includes/head.html:\n    7    <meta name=\"description\" content=\"{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}\">\n    8  \n    9:   <link rel=\"stylesheet\" href=\"{{ \"/css/main.css\" | prepend: site.baseurl }}\">\n   10  \n   11    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n/Users/ben/code/medusal.github.io/_sass/bootstrap/_print.scss:\n    1: /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */\n    2  \n    3  // ==========================================================================\n\n/Users/ben/code/medusal.github.io/_site/index.html:\n   10  \">\n   11  \n   12:   <link rel=\"stylesheet\" href=\"/css/main.css\">\n   13  \n   14    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n/Users/ben/code/medusal.github.io/_site/about/index.html:\n    9    <meta name=\"description\" content=\"TODO 160 chars\">\n   10  \n   11:   <link rel=\"stylesheet\" href=\"/css/main.css\">\n   12  \n   13    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n/Users/ben/code/medusal.github.io/_site/cgu/index.html:\n    9    <meta name=\"description\" content=\"TODO 160 chars\">\n   10  \n   11:   <link rel=\"stylesheet\" href=\"/css/main.css\">\n   12  \n   13    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n/Users/ben/code/medusal.github.io/_site/connexion/index.html:\n   10  \">\n   11  \n   12:   <link rel=\"stylesheet\" href=\"/css/main.css\">\n   13  \n   14    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n/Users/ben/code/medusal.github.io/_site/coucou/index.html:\n   10  \">\n   11  \n   12:   <link rel=\"stylesheet\" href=\"/css/main.css\">\n   13  \n   14    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n/Users/ben/code/medusal.github.io/_site/tech-medusal/index.html:\n    9    <meta name=\"description\" content=\"TODO 160 chars\">\n   10  \n   11:   <link rel=\"stylesheet\" href=\"/css/main.css\">\n   12  \n   13    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n/Users/ben/code/medusal.github.io/_site/template/index.html:\n   10  \">\n   11  \n   12:   <link rel=\"stylesheet\" href=\"/css/main.css\">\n   13  \n   14    <script src=\"https://code.jquery.com/jquery-2.2.4.min.js\" integrity=\"sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\"   crossorigin=\"anonymous\"></script>\n\n9 matches across 9 files\n\n\nSearching 105 files for \"bs-docs-nav\" (case sensitive)\n\n/Users/ben/code/medusal.github.io/_includes/header.html:\n    1: <nav class=\"navbar navbar-static-top bs-docs-nav\">\n    2    <div class=\"container-fluid\">\n    3      <!-- Brand and toggle get grouped for better mobile display -->\n\n/Users/ben/code/medusal.github.io/_sass/_bs-docs.scss:\n   28  }\n   29  \n   30: .bs-docs-nav {\n   31      margin-bottom: 0;\n   32      background-color: #fff;\n   ..\n   36      display: none\n   37  }\n   38: .bs-docs-nav .navbar-brand,\n   39: .bs-docs-nav .navbar-nav>li>a {\n   40      font-weight: 500;\n   41      color: $text-color;\n   42  }\n   43: .bs-docs-nav .navbar-nav>.active>a,\n   44: .bs-docs-nav .navbar-nav>.active>a:hover,\n   45: .bs-docs-nav .navbar-nav>li>a:hover {\n   46      color: $text-color;\n   47      background-color: #f9f9f9\n   48  }\n   49: .bs-docs-nav .navbar-toggle .icon-bar {\n   50      background-color: $text-color;\n   51  }\n   52: .bs-docs-nav .navbar-header .navbar-toggle {\n   53      border-color: #fff\n   54  }\n   55: .bs-docs-nav .navbar-header .navbar-toggle:focus,\n   56: .bs-docs-nav .navbar-header .navbar-toggle:hover {\n   57      background-color: #f9f9f9;\n   58      border-color: #f9f9f9\n\n/Users/ben/code/medusal.github.io/css/main.scss:\n    7  @import \"bootstrap-variables\";\n    8  @import \"bootstrap\";\n    9: @import \"bs-docs-nav\";\n   10  @import \"navbar\";\n   11  @import \"bs-docs\";\n\n12 matches across 3 files\n\n\nSearching 105 files for \"bs-docs-nav\" (case sensitive)\n\n/Users/ben/code/medusal.github.io/_includes/header.html:\n    1: <nav class=\"navbar navbar-static-top bs-docs-nav\">\n    2    <div class=\"container-fluid\">\n    3      <!-- Brand and toggle get grouped for better mobile display -->\n\n/Users/ben/code/medusal.github.io/_sass/_bs-docs.scss:\n   28  }\n   29  \n   30: .bs-docs-nav {\n   31      margin-bottom: 0;\n   32      background-color: #fff;\n   ..\n   36      display: none\n   37  }\n   38: .bs-docs-nav .navbar-brand,\n   39: .bs-docs-nav .navbar-nav>li>a {\n   40      font-weight: 500;\n   41      color: $text-color;\n   42  }\n   43: .bs-docs-nav .navbar-nav>.active>a,\n   44: .bs-docs-nav .navbar-nav>.active>a:hover,\n   45: .bs-docs-nav .navbar-nav>li>a:hover {\n   46      color: $text-color;\n   47      background-color: #f9f9f9\n   48  }\n   49: .bs-docs-nav .navbar-toggle .icon-bar {\n   50      background-color: $text-color;\n   51  }\n   52: .bs-docs-nav .navbar-header .navbar-toggle {\n   53      border-color: #fff\n   54  }\n   55: .bs-docs-nav .navbar-header .navbar-toggle:focus,\n   56: .bs-docs-nav .navbar-header .navbar-toggle:hover {\n   57      background-color: #f9f9f9;\n   58      border-color: #f9f9f9\n\n/Users/ben/code/medusal.github.io/css/main.scss:\n    7  @import \"bootstrap-variables\";\n    8  @import \"bootstrap\";\n    9: @import \"bs-docs-nav\";\n   10  @import \"navbar\";\n   11  @import \"bs-docs\";\n\n12 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 6075,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 1413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 1209,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "comment",
+		"selected_items":
+		[
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"uninst",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"pack con",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: React: this.props"
+			]
+		],
+		"width": 746.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ben/code/medusal.github.io",
+		"/Users/ben/code/medusal.github.io/_layouts",
+		"/Users/ben/code/medusal.github.io/_pages",
+		"/Users/ben/code/medusal.github.io/_sass",
+		"/Users/ben/code/medusal.github.io/_site",
+		"/Users/ben/code/medusal.github.io/css"
+	],
+	"file_history":
+	[
+		"/Users/ben/code/medusal.github.io/_sass/_bs-docs.scss",
+		"/Users/ben/code/medusal.github.io/css/main.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_bs-docs-nav.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_bootstrap-variables.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_style.scss",
+		"/Users/ben/code/medusal.github.io/_layouts/default.html",
+		"/Users/ben/code/medusal.github.io/_pages/template.html",
+		"/Users/ben/code/medusal.github.io/_sass/_layout-default.scss",
+		"/Users/ben/code/medusal.github.io/_layouts/home.html",
+		"/Users/ben/code/medusal.github.io/_pages/home.html",
+		"/Users/ben/code/medusal.github.io/_sass/_home.scss",
+		"/Users/ben/code/medusal.github.io/_includes/head.html",
+		"/Users/ben/code/medusal.github.io/_sass/_buttons.scss",
+		"/Users/ben/code/medusal.github.io/_includes/header.html",
+		"/Users/ben/code/medusal.github.io/_sass/_navbar.scss",
+		"/Users/ben/code/medusal.github.io/_includes/footer.html",
+		"/Users/ben/code/medusal.github.io/_sass/bootstrap/_navbar.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_bootstrap.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_layout-home.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_utils.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_bubbles.scss",
+		"/Users/ben/code/medusal.github.io/_sass/_hacks.scss",
+		"/Users/ben/code/medusal.github.io/README.md",
+		"/Users/ben/code/medusal.github.io/_pages/about.md",
+		"/Users/ben/code/medusal.github.io/_config.yml",
+		"/Users/ben/code/medusal.github.io/_pages/cgu.html",
+		"/Users/ben/code/medusal.github.io/_pages/techmedusal.html",
+		"/Users/ben/code/medusal.github.io/_pages/connexion.html",
+		"/Users/ben/code/medusal.github.io/_pages/coucou.html",
+		"/Users/ben/code/medusal/config/initializers/devise.rb",
+		"/Users/ben/code/medusal/app/models/couch/local.rb",
+		"/Users/ben/code/medusal/lib/middlewares/couch_middleware.rb",
+		"/Users/ben/code/medusal/spec/factories/couch_locals.rb",
+		"/Users/ben/code/medusal/config/initializers/action_mailer.rb",
+		"/Users/ben/code/medusal/db/structure.sql",
+		"/Users/ben/code/medusal/app/controllers/couch_controller.rb",
+		"/Users/ben/code/medusal/spec/requests/couch_controller_spec.rb",
+		"/Users/ben/code/medusal/Gemfile",
+		"/Users/ben/code/medusal/spec/rails_helper.rb",
+		"/Users/ben/code/medusal/spec/lib/middlewares/couch_middleware_spec.rb",
+		"/Users/ben/code/medusal/db/migrate/20160718154852_add_account_id_to_couch_locals.rb",
+		"/Users/ben/code/medusal/app/controllers/users/sessions_controller.rb",
+		"/Users/ben/code/medusal/client/components/controllers/Login.tsx",
+		"/Users/ben/code/medusal/client/components/NavBar.tsx",
+		"/Users/ben/code/medusal/spec/requests/drugs_controller_spec.rb",
+		"/Users/ben/code/medusal/config/application.rb",
+		"/Users/ben/code/medusal/app/assets/stylesheets/application.css.erb",
+		"/Users/ben/code/medusal/.env",
+		"/Users/ben/code/medusal/spec/support/devise_request_helpers.rb",
+		"/Users/ben/code/medusal/spec/support/controller_helpers.rb",
+		"/Users/ben/code/medusal.github.io/new-home.html",
+		"/Users/ben/Movies/Peter Pan 2003 1080p BluRay TrueHD 5.1 x264-BluEvo/Peter Pan 2003 1080p BluRay TrueHD 5.1 x264-BluEvo.nfo",
+		"/Users/ben/Downloads/Sky.Captain.and.the.World.of.Tomorrow.2004.1080p.BluRay.H264.AAC-RARBG/Sky.Captain.and.the.World.of.Tomorrow.2004.1080p.BluRay.H264.AAC-RARBG.nfo",
+		"/Users/ben/code/medusal/lib/auth_token_utils.rb",
+		"/Users/ben/code/medusal/app/controllers/api/sharings_controller.rb",
+		"/Users/ben/code/medusal/lib/couch/deleted_error.rb",
+		"/Users/ben/code/medusal/lib/couch/expectation_error.rb",
+		"/Users/ben/code/medusal/app/models/couch/note.rb",
+		"/Users/ben/code/medusal/config/puma.rb",
+		"/Users/ben/code/medusal/config/database.yml",
+		"/Users/ben/code/medusal/spec/requests/sharing_spec.rb",
+		"/Users/ben/code/medusal/spec/factories/contact_emails.rb",
+		"/Users/ben/code/medusal/client/components/Tabs.tsx",
+		"/Users/ben/code/medusal/client/components/forms/Allergy.tsx",
+		"/Users/ben/code/medusal/client/components/forms/MedicalHistory.tsx",
+		"/Users/ben/code/medusal/client/components/forms/Sharing.tsx",
+		"/Users/ben/code/medusal/config/routes.rb",
+		"/Users/ben/code/medusal/spec/controllers/couch_controller_spec.rb",
+		"/Users/ben/code/medusal/Gemfile.lock",
+		"/Users/ben/code/medusal/spec/features/app_spec.rb",
+		"/Users/ben/code/medusal/client/components/controllers/App.tsx",
+		"/Users/ben/code/medusal/client/lib/PouchStore.ts",
+		"/Users/ben/code/medusal/config/initializers/assets.rb",
+		"/Users/ben/code/medusal/config/initializers/couch_middleware.rb",
+		"/Users/ben/code/medusal/app/controllers/users/registrations_controller.rb",
+		"/Users/ben/code/medusal/spec/features/devise_spec.rb",
+		"/Users/ben/code/medusal/spec/factories/users.rb",
+		"/Users/ben/code/medusal/app/mailers/application_mailer.rb",
+		"/Users/ben/code/medusal/config/i18n-tasks.yml",
+		"/Users/ben/code/medusal/spec/mailers/notifications_spec.rb",
+		"/Users/ben/code/medusal/spec/models/user_spec.rb",
+		"/Users/ben/code/medusal/spec/lib/auth_token_utils_spec.rb",
+		"/Users/ben/code/medusal/config/locales/en.yml",
+		"/Users/ben/code/medusal/config/initializers/new_framework_defaults.rb",
+		"/Users/ben/code/medusal/config/initializers/mime_types.rb",
+		"/Users/ben/code/medusal/config/environments/production.rb",
+		"/Users/ben/code/medusal/config/environments/development.rb",
+		"/Users/ben/code/medusal/lib/medusal.rb",
+		"/Users/ben/code/medusal/app/controllers/app_controller.rb",
+		"/Users/ben/code/medusal/app/controllers/application_controller.rb",
+		"/Users/ben/code/medusal/app/controllers/drugs_controller.rb",
+		"/Users/ben/code/medusal/spec/factories/drug_ansm_products.rb",
+		"/Users/ben/code/medusal/app/controllers/api_controller.rb",
+		"/Users/ben/code/medusal/app/controllers/api/sessions_controller.rb",
+		"/Users/ben/code/medusal/db/migrate/20160629203405_create_sharings.rb",
+		"/Users/ben/code/medusal/app/models/sharing.rb",
+		"/Users/ben/code/medusal/client/components/Router.tsx",
+		"/Users/ben/code/medusal/typings/browser/ambient/react-router/index.d.ts",
+		"/Users/ben/Pyxvital/Pages/status.xml",
+		"/Users/ben/Pyxvital/Pages/praticien.xml",
+		"/Users/ben/code/medusal/data/status.xml",
+		"/Users/ben/code/medusal/data/praticien.xml",
+		"/Users/ben/code/medusal/data/professions.csv",
+		"/Users/ben/code/medusal/data/patient.xml",
+		"/Users/ben/Pyxvital/Pages/Listeactes.js",
+		"/Users/ben/Pyxvital/Pages/PyxvitalIX.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalHY.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalHX.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalGS.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalGI.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalGG.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalGD.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalE.htm",
+		"/Users/ben/Pyxvital/Pages/Pyxvital.htm",
+		"/Users/ben/Pyxvital/Pages/Pyxvital.css",
+		"/Users/ben/Pyxvital/Pages/Pyxvital_1.htm",
+		"/Users/ben/Pyxvital/Pages/Pyxvital_@.htm",
+		"/Users/ben/Pyxvital/Pages/Afficher.js",
+		"/Users/ben/Pyxvital/Pages/Configurer.js",
+		"/Users/ben/Pyxvital/Pages/Gerer.js",
+		"/Users/ben/Pyxvital/Pages/Controls.js",
+		"/Users/ben/Pyxvital/Pages/patient.xml",
+		"/Users/ben/Pyxvital/Pages/Pyxvital@.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalK.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalP.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalS.htm",
+		"/Users/ben/Pyxvital/Pages/PyxvitalV.htm",
+		"/Users/ben/code/medusal/data/PyxvitalO.htm"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.js",
+			"",
+			"/Users/ben/code/express-pouchdb/lib/routes",
+			"",
+			"/Users/ben/code/medusal/app/assets/fonts/boostrap",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"bs-docs-nav",
+			"main.css",
+			"main.scss",
+			"Consultez-les",
+			"line-height-computed",
+			"container",
+			"class=\"container",
+			"container",
+			".container",
+			"important",
+			"jumbotron",
+			"nav_title",
+			"site.github",
+			"FactoryGirl.find_definitions",
+			"factory_girl_rails",
+			"puts ",
+			"couch_notes",
+			"couch_locals",
+			"curr",
+			"assigns(:document",
+			"assigns(:documents)",
+			"assigns(:document)._rev",
+			"console.log",
+			"ControllerHelpers",
+			"Devise::TestHelpers",
+			"config.include Devise::TestHelpers",
+			"wallpaer",
+			"random_id",
+			"sanitize_doc_param",
+			"model.delete",
+			"rev_info",
+			"current_JWT_user",
+			"_db",
+			"ExpectationError",
+			"readonly",
+			"new_edits",
+			"contact_email",
+			"bulk_docs",
+			"tabindex",
+			"_deleted",
+			"rspec",
+			"RSpec",
+			"return anything on a successful",
+			"fill_in",
+			"Medusal.currentUser.id",
+			"forceUpdate",
+			"before_filter",
+			"Warden::Manager",
+			"raise_in_transactional_callbacks",
+			"config.static_cache_control",
+			"post 'document'",
+			"get 'all_docs'",
+			"post 'bulk_docs'",
+			"get 'document'",
+			"put 'document'",
+			"AuthTokenUtils",
+			"token.starts_with",
+			"drug_ansm_product",
+			"<div id=\"react-content\"/>",
+			"<div id=\"react-content\"/>\n",
+			"render text:",
+			"RAW_POST_DATA",
+			"ErrorMeContrloler",
+			"current_JWT_user",
+			"current_user",
+			"Nantes",
+			"self.units",
+			"ACCOUNT_PATH",
+			"turbolink",
+			"rppsBarCode",
+			"turbolink",
+			"n'est pas un nombre",
+			"n'est pas disponible",
+			"(si valide)",
+			"form-text",
+			"label_text",
+			"*",
+			"help-block",
+			"Confirmation du mot de passe\n",
+			"url(data",
+			"data:application",
+			"zlib",
+			"Zlib",
+			"zlib",
+			"zlib = ",
+			"pako",
+			"zlib",
+			"zlib = ",
+			"zlib",
+			"COLORS",
+			"Changer votre email",
+			"formsSelector\nformsSelector",
+			"currentUser",
+			".card.card-block",
+			"card card-block",
+			"edit.title",
+			"Mon compte",
+			"User.send(\"#{section}_attributes",
+			"Medusal.currentUser",
+			"currentUser",
+			"to_hash",
+			"devise_permitted_parameters",
+			"profile_attributes",
+			"prescription_attributes",
+			"ribbon",
+			"sign_up_url",
+			"login_url",
+			"translations",
+			"tld_length",
+			"APP",
+			"HOST",
+			"ENV.fetch('HOST')",
+			"tld_length",
+			"console.log",
+			"se connecter",
+			"home_url",
+			"home_path",
+			"buildpack",
+			"heroku",
+			"heroku-buildpack-multi",
+			"focusedSectionIndex",
+			"updateFocusedSuggestion",
+			"AutosuggestContainer",
+			"Let’s start simple. Here’s a",
+			"mime",
+			"function isObject(o){ return (typeof o === 'object')",
+			"mutate tree or change untouched nested",
+			"require('lodash/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"nav_name",
+			"post :document",
+			"get :all_docs",
+			"post :bulk_docs",
+			"get :document",
+			"put :document",
+			":",
+			"form_label",
+			"action.",
+			"prescription.dose.",
+			"new",
+			"I18n.t('javascript.new_patient.title')",
+			"profile_attributes",
+			"import React, { PropTypes, Component } from 'react';",
+			"PatientInfo",
+			"indexingProgress",
+			"drug_ansm_",
+			"shared",
+			"POUCH_RESET",
+			"collection",
+			"POUCH_HYDRATE",
+			"text-capitalize",
+			", req.body)",
+			"console.warn",
+			"PORT",
+			"email",
+			"emails",
+			"Email"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_sass/_bootstrap.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 61.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Guardfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_sass/_navbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6075,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										402,
+										410
+									],
+									[
+										761,
+										769
+									],
+									[
+										980,
+										988
+									],
+									[
+										1336,
+										1344
+									],
+									[
+										1690,
+										1698
+									],
+									[
+										2000,
+										2008
+									],
+									[
+										2307,
+										2315
+									],
+									[
+										2670,
+										2678
+									],
+									[
+										2979,
+										2987
+									],
+									[
+										3350,
+										3361
+									],
+									[
+										3559,
+										3570
+									],
+									[
+										3685,
+										3696
+									],
+									[
+										3720,
+										3731
+									],
+									[
+										3828,
+										3839
+									],
+									[
+										3871,
+										3882
+									],
+									[
+										3920,
+										3931
+									],
+									[
+										4042,
+										4053
+									],
+									[
+										4140,
+										4151
+									],
+									[
+										4231,
+										4242
+									],
+									[
+										4288,
+										4299
+									],
+									[
+										4541,
+										4552
+									],
+									[
+										4792,
+										4803
+									],
+									[
+										5001,
+										5012
+									],
+									[
+										5127,
+										5138
+									],
+									[
+										5162,
+										5173
+									],
+									[
+										5270,
+										5281
+									],
+									[
+										5313,
+										5324
+									],
+									[
+										5362,
+										5373
+									],
+									[
+										5484,
+										5495
+									],
+									[
+										5582,
+										5593
+									],
+									[
+										5673,
+										5684
+									],
+									[
+										5730,
+										5741
+									],
+									[
+										5983,
+										5994
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								5987,
+								5987
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
+							"default_dir": "/Users/ben/code/medusal.github.io",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1890.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1209,
+								1209
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 273.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "medusal.github.io.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"home",
+				"_sass/_home.scss"
+			],
+			[
+				"rails",
+				"spec/rails_helper.rb"
+			],
+			[
+				"couch_local",
+				"spec/factories/couch_locals.rb"
+			],
+			[
+				"couchloc",
+				"app/models/couch/local.rb"
+			],
+			[
+				"couchmidd",
+				"spec/lib/middlewares/couch_middleware_spec.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"str",
+				"db/structure.sql"
+			],
+			[
+				"couchlocal",
+				"app/models/couch/local.rb"
+			],
+			[
+				"couchlo",
+				"spec/factories/couch_locals.rb"
+			],
+			[
+				"couch_c",
+				"spec/requests/couch_controller_spec.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"couch/base",
+				"app/models/concerns/couch/base.rb"
+			],
+			[
+				"deletederror",
+				"lib/couch/deleted_error.rb"
+			],
+			[
+				"appliccon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"auth_token_utils.rb",
+				"lib/auth_token_utils.rb"
+			],
+			[
+				"contact_email",
+				"spec/factories/contact_emails.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"puma",
+				"config/puma.rb"
+			],
+			[
+				"app/controllers/couch_controller.rb",
+				"app/controllers/couch_controller.rb"
+			],
+			[
+				"appsp",
+				"spec/features/app_spec.rb"
+			],
+			[
+				"pouchstore",
+				"client/lib/PouchStore.ts"
+			],
+			[
+				"pp_spec.rb",
+				"spec/features/app_spec.rb"
+			],
+			[
+				"devise_spec.rb",
+				"spec/features/devise_spec.rb"
+			],
+			[
+				"i18n",
+				"config/i18n-tasks.yml"
+			],
+			[
+				"notifications_spec.rb",
+				"spec/mailers/notifications_spec.rb"
+			],
+			[
+				"user_spec.rb",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"auth_token_utils_spec.rb",
+				"spec/lib/auth_token_utils_spec.rb"
+			],
+			[
+				"users",
+				"spec/factories/users.rb"
+			],
+			[
+				"authtokenutils",
+				"lib/auth_token_utils.rb"
+			],
+			[
+				"couch_middleware_spec.rb",
+				"spec/lib/middlewares/couch_middleware_spec.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"coucn",
+				"app/controllers/couch_controller.rb"
+			],
+			[
+				"couchmi",
+				"lib/middlewares/couch_middleware.rb"
+			],
+			[
+				"medus",
+				"lib/medusal.rb"
+			],
+			[
+				"applcon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"medusl",
+				"lib/medusal.rb"
+			],
+			[
+				"simpleform",
+				"config/locales/simple_form.fr.yml"
+			],
+			[
+				"reg",
+				"app/controllers/users/registrations_controller.rb"
+			],
+			[
+				"input",
+				"client/components/helpers/Input.tsx"
+			],
+			[
+				"simep",
+				"config/locales/simple_form.fr.yml"
+			],
+			[
+				"_add_rpps_to_user",
+				"db/migrate/20160201164034_add_rpps_to_users.rb"
+			],
+			[
+				"notifications_spec",
+				"spec/mailers/notifications_spec.rb"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"rake",
+				"Rakefile"
+			],
+			[
+				"add_rpps",
+				"db/migrate/20160531090010_add_rpps.rb"
+			],
+			[
+				"railscon",
+				"client/components/controllers/RailsContent.tsx"
+			],
+			[
+				"router",
+				"client/components/Router.tsx"
+			],
+			[
+				"meds",
+				"lib/medusal.rb"
+			],
+			[
+				"settin",
+				"client/components/forms/Settings.tsx"
+			],
+			[
+				"setting",
+				"client/components/controllers/Settings.tsx"
+			],
+			[
+				"mani",
+				"public/manifest.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"appc",
+				"app/views/app/appcache.appcache.erb"
+			],
+			[
+				"medusal",
+				"lib/medusal.rb"
+			],
+			[
+				"index",
+				"client/index.tsx"
+			],
+			[
+				"navba",
+				"client/components/NavBar.tsx"
+			],
+			[
+				"java",
+				"config/locales/javascript.fr.yml"
+			],
+			[
+				"homecon",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.slim"
+			],
+			[
+				"text",
+				"src/textTools.js"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"devisespe",
+				"spec/features/devise_spec.rb"
+			],
+			[
+				"feat",
+				"spec/features/app_spec.rb"
+			],
+			[
+				"registrationscontroller",
+				"app/controllers/users/registrations_controller.rb"
+			],
+			[
+				"medu",
+				"lib/medusal.rb"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"imagem",
+				"src/imageMeasure.js"
+			],
+			[
+				"patient",
+				"client/lib/models/Patient.ts"
+			],
+			[
+				"javas",
+				"config/locales/javascript.fr.yml"
+			],
+			[
+				"pdf",
+				"client/lib/pdf.js"
+			],
+			[
+				"prescript",
+				"client/lib/pdfs/prescription.js"
+			],
+			[
+				"uuid",
+				"client/lib/uuid.js"
+			],
+			[
+				"javasr",
+				"config/locales/javascript.fr.yml"
+			],
+			[
+				"not",
+				"client/components/controllers/Note.js"
+			],
+			[
+				"presctest",
+				"client/test/lib/models/Prescription_test.js"
+			],
+			[
+				"pres",
+				"client/components/PrescriptionNote.js"
+			],
+			[
+				"datetime",
+				"client/lib/datetime.js"
+			],
+			[
+				"plann",
+				"client/lib/pdfs/planning.js"
+			],
+			[
+				"date",
+				"client/lib/datetime.js"
+			],
+			[
+				"prescripttest",
+				"client/test/lib/models/Prescription_test.js"
+			],
+			[
+				"shims",
+				"client/lib/shims.js"
+			],
+			[
+				"setup",
+				"client/test/setup.js"
+			],
+			[
+				"modelspre",
+				"client/lib/models/Prescription.js"
+			],
+			[
+				"modelsnot",
+				"client/lib/models/Note.js"
+			],
+			[
+				"railshel",
+				"spec/rails_helper.rb"
+			],
+			[
+				"modelsn",
+				"client/lib/models/Note.js"
+			],
+			[
+				"jav",
+				"config/locales/javascript.fr.yml"
+			],
+			[
+				"presc",
+				"client/lib/pdfs/prescription.js"
+			],
+			[
+				"prescription",
+				"client/lib/models/Prescription.js"
+			],
+			[
+				"datet",
+				"client/lib/datetime.js"
+			],
+			[
+				"datetimetag",
+				"client/components/helpers/DatetimeTag.js"
+			],
+			[
+				"pouch",
+				"client/modules/pouch.js"
+			],
+			[
+				"indexjs",
+				"client/index.js"
+			],
+			[
+				"eslint",
+				".eslintrc"
+			],
+			[
+				"modelsno",
+				"client/lib/models/Note.js"
+			],
+			[
+				"flow",
+				"flow-interfaces.js"
+			],
+			[
+				"pre",
+				"client/lib/models/Prescription.js"
+			],
+			[
+				"rakef",
+				"Rakefile"
+			],
+			[
+				"in",
+				"flow-interfaces.js"
+			],
+			[
+				"prescr",
+				"client/lib/pdfs/prescription.js"
+			],
+			[
+				"prescri",
+				"client/lib/models/Prescription.js"
+			],
+			[
+				"babel",
+				".babelrc"
+			],
+			[
+				"flowin",
+				"flow-interfaces.js"
+			],
+			[
+				"base",
+				"client/lib/models/Base.js"
+			],
+			[
+				"modelsuser",
+				"client/lib/models/User.js"
+			],
+			[
+				"eslintrc",
+				".eslintrc"
+			],
+			[
+				"inerface",
+				"client/interfaces/i18n.js"
+			],
+			[
+				"navbar",
+				"client/components/NavBar.js"
+			],
+			[
+				"controllers/routeparsers/note",
+				"client/components/controllers/routeParsers/note.js"
+			],
+			[
+				"patientli",
+				"client/components/PatientList.js"
+			],
+			[
+				"const",
+				"client/config/constants.js"
+			],
+			[
+				"rout",
+				"client/components/Router.js"
+			],
+			[
+				"controllernewnot",
+				"client/components/controllers/NewNote.js"
+			],
+			[
+				"note",
+				"client/components/controllers/Note.js"
+			],
+			[
+				"newnote",
+				"client/components/controllers/NewNote.js"
+			],
+			[
+				"javascr",
+				"config/locales/javascript.fr.yml"
+			],
+			[
+				"contrnewno",
+				"client/components/controllers/NewNote.js"
+			],
+			[
+				"rollbar",
+				"app/views/layouts/_rollbar_js.html.erb"
+			],
+			[
+				"bab",
+				".babelrc"
+			],
+			[
+				"applisl",
+				"app/views/layouts/application.slim"
+			],
+			[
+				"medusa",
+				"lib/medusal.rb"
+			],
+			[
+				"modelspr",
+				"client/lib/models/Prescription.js"
+			],
+			[
+				"modeluser",
+				"app/models/user.rb"
+			],
+			[
+				"javascript",
+				"config/locales/javascript.fr.yml"
+			],
+			[
+				"",
+				"client/lib/pdf.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

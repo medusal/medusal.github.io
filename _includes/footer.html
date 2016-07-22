@@ -1,6 +1,6 @@
-<footer class="bs-docs-footer" role="contentinfo">
+<footer>
   <div class="container-fluid">
-    <ul class="bs-docs-footer-links">
+    <ul class="footer-links">
       {% assign pages = site.pages | sort:"weight"  %}
       {% for my_page in pages %}
         {% if my_page.footer_name %}
@@ -8,9 +8,11 @@
         {% endif %}
       {% endfor %}
     </ul>
-    <p>SAS medusal</p>
-    <p>9 rue Gerbert</p>
-    <p>75015 Paris</p>
-    <p><a mailto:contact@medusal.com>contact@medusal.com</a></p>
+    <p>
+      SAS medusal<br/>
+      9 rue Gerbert<br/>
+      75015 Paris<br/>
+      <a href="mailto:contact@medusal.com">contact@medusal.com</a>
+    </p>
   </div>
 </footer>

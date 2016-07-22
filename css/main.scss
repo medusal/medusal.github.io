@@ -6,12 +6,10 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap-variables";
 @import "bootstrap";
-@import "bs-docs-nav";
 @import "navbar";
-@import "bs-docs-footer";
-@import "font-awesome";
+@import "footer";
 @import "syntax-highlighting";
-@import "layout-home";
+@import "home";
 @import "layout-default";
 @import "bubbles";
 @import "utils";

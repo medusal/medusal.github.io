@@ -3,6 +3,7 @@ medusal website
 
 # launch
 ```bash
-jekyll serve
-http://127.0.0.1:4000/
+# install live-reload in chrome
+guard
+# refresh http://localhost:4000
 ```

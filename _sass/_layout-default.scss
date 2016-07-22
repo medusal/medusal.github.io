@@ -1,3 +1,32 @@
-.gradient-bottom {
-  background-image: linear-gradient(to top, #e5e8e7, rgba(229,232,231,0) 60px)
+.layout-default {
+  .content {
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    font-weight: 200 !important;
+    margin-top: 30px;
+  }
+
+  p.lead {
+    font-size: 16px;
+  }
+
+  h2 {
+    border-bottom: 1px solid #ddd;
+    font-weight: 400;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  p {
+    margin: $font-size-base 0;
+  }
+
+  .support-footer {
+    margin: 40px 0;
+    text-align: center;
+  }
 }
