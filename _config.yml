@@ -23,4 +23,9 @@ defaults:
     scope:
       path: "_pages"
     values:
-      layout: "default"
+      layout: 'default'
+      nav_name: null
+      footer_name: null
+      excerpt: null
+      color: null
+      weight: 10
