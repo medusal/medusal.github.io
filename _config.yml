@@ -21,7 +21,8 @@ include: ['_pages']
 defaults:
   -
     scope:
-      path: "_pages"
+      path: ""
+      type: pages
     values:
       layout: 'default'
       nav_name: null
@@ -29,3 +30,4 @@ defaults:
       excerpt: null
       color: null
       weight: 10
+      permalink: ""
