@@ -4,7 +4,7 @@
       {% assign pages = site.pages | sort:"weight"  %}
       {% for my_page in pages %}
         {% if my_page.footer_name %}
-          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.footer_name }}</a></li>
+          <li><a href="{{ my_page.url }}">{{ my_page.footer_name }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
@@ -12,7 +12,7 @@
       SAS medusal<br/>
       9 rue Gerbert<br/>
       75015 Paris<br/>
-      <a href="mailto:contact@medusal.com">contact@medusal.com</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
     </p>
   </div>
 </footer>

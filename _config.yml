@@ -13,8 +13,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://medusal.github.io" # the base hostname & protocol for your site
 twitter_username: GetMedusal
-github_username:  bbenezech
 
 # Build settings
 markdown: kramdown
 include: ['_pages']
+
+defaults:
+  -
+    scope:
+      path: "_pages"
+    values:
+      layout: "default"
