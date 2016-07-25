@@ -14,16 +14,18 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         {% assign pages = site.pages | sort:"weight"  %}
+        {% assign page_url_array = page.url | split:'/' | index[1] %}
         {% for my_page in pages %}
           {% if my_page.nav_name %}
-            {% if my_page.url == page.url %}
-              <li class="active">
+            {% assign my_page_url_array = my_page.url | split:'/' | index[1] %}
+            {% if page_url_array[1] == my_page_url_array[1] %}
+              <li class="active ">
                 <a href="{{ my_page.url | prepend: site.baseurl }}" style="color: {{ my_page.color | default: 'inherit' }}">
                   {{ my_page.nav_name }}
                 </a>
-                </li>
+              </li>
             {% else %}
-              <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_name }}</a></li>
+              <li class="{{ page_url_array[1] }} {{ my_page_url_array[1] }}"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_name }}</a></li>
             {% endif %}
           {% endif %}
         {% endfor %}

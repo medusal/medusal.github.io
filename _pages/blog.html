@@ -1,0 +1,12 @@
+---
+title: Blog
+nav_name: Blog
+footer_name: Blog
+permalink: "/blog/"
+color: '#85144b' # keep in sync with _layouts/blogs color
+---
+{% for post in site.posts %}
+  <li>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ post.date | date: "%b %-d, %Y" }})
+  </li>
+{% endfor %}
