@@ -6,26 +6,18 @@ permalink: "/blog/"
 ---
 <div class="row">
   {% for post in site.posts %}
-    {% capture i18n_date %}
-      {{ post.date | date: "%-d" }}
-      {% assign m = post.date | date: "%-m" | minus: 1 %}
-      {{ site.months[m] }}
-      {{ post.date | date: "%Y" }}
-    {% endcapture %}
-
     <div class="col-xs-12 col-sm-6">
       <a href="{{ post.url }}">
-        <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%">
+        <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%; object-fit: cover;" height="200px">
       </a>
       <h3>
         <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
+        <small><a class="page-color" href="/blog/{{ post.categories[0] | downcase }}/">({{ post.categories[0] | replace: 'E-sante', 'E-santé' }})</a></small>
       </h3>
       <p class="lead">
         {{ post.excerpt | truncatewords: 30 }}
         <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
       </p>
-
     </div>
   {% endfor %}
 </div>
-

@@ -39,6 +39,7 @@ defaults:
       banner: null
       categories: []
       tags: []
+      author: 'Yacine Sedrati'
       permalink: '/blog/:categories/:slug/'
 months:
   - janvier

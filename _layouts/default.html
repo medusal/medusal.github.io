@@ -9,15 +9,38 @@
         {% if page.title %}
           <h1 class="page-color">{{ page.title }}</h1>
         {% endif %}
+        {% if page.categories %}
+          <small class="mute page-color">Posté dans <a href="/blog/{{ page.categories[0] | downcase }}">{{ page.categories[0] | replace: 'E-sante', 'E-santé' }}</a></small>
+        {% endif %}
+        {% if page.categories && page.date %}
+          <small class="mute page-color">-</small>
+        {% endif %}
+        {% if page.date %}
+          {% capture i18n_date %}
+            {{ page.date | date: "%-d" }}
+            {% assign m = page.date | date: "%-m" | minus: 1 %}
+            {{ site.months[m] }}
+            {{ page.date | date: "%Y" }}
+          {% endcapture %}
+
+          <small class="mute page-color">le {{ i18n_date }}</small>
+        {% endif %}
+
+
         {% if page.excerpt %}
           <p class="lead">{{ page.excerpt }}</p>
         {% endif %}
         {% if page.banner %}
-          <img src="{{ page.banner }}" width="100%"/>
+          <img src="{{ page.banner }}" width="100%" height="300px" style="object-fit: cover;" />
         {% endif %}
         {{ content }}
+        {% if page.author %}
+          <em>{{ page.author }}</em>
+        {% endif %}
       </div>
     </div>
     {% include footer.html %}
   </body>
 </html>
+
+

@@ -1,0 +1,23 @@
+---
+title: E-santé
+permalink: "/blog/e-sante/"
+---
+<div class="row">
+  {% for post in site.posts %}
+    {% if post.categories[0] == 'E-sante' %}
+      <div class="col-xs-12 col-sm-6">
+        <a href="{{ post.url }}">
+          <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%; object-fit: cover;" height="200px">
+        </a>
+        <h3>
+          <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        <p class="lead">
+          {{ post.excerpt | truncatewords: 30 }}
+          <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+        </p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
