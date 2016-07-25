@@ -36,6 +36,9 @@ defaults:
     values:
       layout: "default"
       excerpt: ''
+      banner: null
+      categories: []
+      tags: []
       permalink: '/blog/:categories/:slug/'
 months:
   - janvier
