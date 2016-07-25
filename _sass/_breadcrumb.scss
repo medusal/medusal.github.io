@@ -1,10 +1,13 @@
 .breadcrumb {
   padding: 0px;
-  background: #D4D4D4;
+  background: #edeff0;
   list-style: none; 
-  overflow: hidden;
   margin-top: 20px;
   white-space: nowrap;
+  border-radius: 4px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .breadcrumb>li+li:before {
   padding: 0;
@@ -13,24 +16,17 @@
   display: inline-block;
 }
 .breadcrumb li.active a {
-  background: #ffc107 ; 
+  color: white;
+  pointer-events: none;
 }
-.breadcrumb li.completed a {
-  background: hsla(153, 57%, 51%, 1); 
-}
-.breadcrumb li.active a:after {
-  border-left: 30px solid #ffc107;
-}
-.breadcrumb li.completed a:after {
-  border-left: 30px solid hsla(153, 57%, 51%, 1);
-} 
 
 .breadcrumb li a {
-  color: white;
+  color: #2c3f4c;
   text-decoration: none; 
   padding: 10px 0 10px 45px;
   position: relative; 
   display: inline-block;
+  font-weight: 500;
 }
 .breadcrumb li a:after { 
   content: " "; 
@@ -39,7 +35,7 @@
   height: 0;
   border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
   border-bottom: 50px solid transparent;
-  border-left: 30px solid hsla(0, 0%, 83%, 1);
+  border-left: 30px solid #edeff0;
   position: absolute;
   top: 50%;
   margin-top: -50px; 
@@ -57,13 +53,15 @@
   position: absolute;
   top: 50%;
   margin-top: -50px; 
-  margin-left: 1px;
+  margin-left: 3px;
   left: 100%;
   z-index: 1; 
 } 
 .breadcrumb li:first-child a {
   padding-left: 15px;
 }
-.breadcrumb li a:hover { background: #ffc107  ; }
-.breadcrumb li a:hover:after { border-left-color: #ffc107   !important; }
+.breadcrumb li a:hover { color: white; background: #2c3f4c; }
+.breadcrumb li a:hover:after { border-left-color: #2c3f4c !important; }
+
+
 
