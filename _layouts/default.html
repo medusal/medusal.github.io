@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="layout-default">
+  <body>
     {% include header.html %}
     <div class="content">
       <div class=" container-fluid">
@@ -9,8 +9,11 @@
         {% if page.title %}
           <h1 class="page-color">{{ page.title }}</h1>
         {% endif %}
+        {% if page.excerpt %}
+          <p class="lead">{{ page.excerpt }}</p>
+        {% endif %}
         {% if page.banner %}
-          <img src="{{page.banner}}" width="100%"/>
+          <img src="{{ page.banner }}" width="100%"/>
         {% endif %}
         {{ content }}
       </div>

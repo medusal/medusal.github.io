@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-8">
+    {% assign post = site.posts[0] %}
+    <a href="{{ post.url }}">
+      <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%">
+    </a>
+    <h3><a class="page-color" href={{ post.url }}>{{ post.title }}</a></h3>
+    <p class="lead">
+      {{ post.excerpt | truncatewords: 50 }}
+      <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <hr class="visible-xs" />
+    {% assign post = site.posts[1] %}
+    <h3>
+      <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <p class="lead">
+      {{ post.excerpt | truncatewords: 30 }}
+      <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <hr />
+  
+    {% assign post = site.posts[2] %}
+    <h3>
+      <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <p class="lead">
+      {{ post.excerpt | truncatewords: 30 }}
+      <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+    </p>
+    
+  </div>
+</div>

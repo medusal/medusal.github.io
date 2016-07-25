@@ -4,16 +4,28 @@ nav_name: Blog
 footer_name: Blog
 permalink: "/blog/"
 ---
+<div class="row">
+  {% for post in site.posts %}
+    {% capture i18n_date %}
+      {{ post.date | date: "%-d" }}
+      {% assign m = post.date | date: "%-m" | minus: 1 %}
+      {{ site.months[m] }}
+      {{ post.date | date: "%Y" }}
+    {% endcapture %}
 
-{% for post in site.posts %}
-  {% capture i18n_date %}
-    {{ post.date | date: "%-d" }}
-    {% assign m = post.date | date: "%-m" | minus: 1 %}
-    {{ site.months[m] }}
-    {{ post.date | date: "%Y" }}
-  {% endcapture %}
+    <div class="col-xs-12 col-sm-6">
+      <a href="{{ post.url }}">
+        <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%">
+      </a>
+      <h3>
+        <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <p class="lead">
+        {{ post.excerpt | truncatewords: 30 }}
+        <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+      </p>
 
-  <li>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ i18n_date | strip }})
-  </li>
-{% endfor %}
+    </div>
+  {% endfor %}
+</div>
+

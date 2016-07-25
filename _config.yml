@@ -35,6 +35,7 @@ defaults:
       type: posts
     values:
       layout: "default"
+      excerpt: ''
       permalink: '/blog/:categories/:slug/'
 months:
   - janvier
