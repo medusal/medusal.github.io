@@ -5,8 +5,16 @@ footer_name: Blog
 permalink: "/blog/"
 color: '#85144b' # keep in sync with _layouts/blogs color
 ---
+
 {% for post in site.posts %}
+  {% capture i18n_date %}
+    {{ post.date | date: "%-d" }}
+    {% assign m = post.date | date: "%-m" | minus: 1 %}
+    {{ site.months[m] }}
+    {{ post.date | date: "%Y" }}
+  {% endcapture %}
+
   <li>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ post.date | date: "%b %-d, %Y" }})
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ i18n_date | strip }})
   </li>
 {% endfor %}

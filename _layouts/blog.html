@@ -2,7 +2,6 @@
 <html>
   {% include head.html %}
   <body class="layout-default">
-    {{  }}
     <style>
       h1 { color: #85144b !important; /* keep in sync with _pages/blog color */  }
     </style>
@@ -10,6 +9,7 @@
     {% include header.html %}
     <div class="content">
       <div class=" container-fluid">
+        {% include breadcrumb.html %}
         {% if page.title %}
           <h1>{{ page.title }}</h1>
         {% endif %}

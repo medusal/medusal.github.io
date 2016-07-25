@@ -35,18 +35,17 @@ defaults:
       type: posts
     values:
       layout: "blog"
-      color: "#85144b" # keep in sync with _pages/blog.html color
-      permalink: '/blog/:categories/:title/'
+      permalink: '/blog/:categories/:slug/'
 months:
-  - Janvier
-  - Février
-  - Mars
-  - Avril
-  - Mai
-  - Juin
-  - Juillet
-  - Aout
-  - Septembre
-  - Octobre
-  - Novembre
-  - Décembre
+  - janvier
+  - février
+  - mars
+  - avril
+  - mai
+  - juin
+  - juillet
+  - août
+  - septembre
+  - octobre
+  - novembre
+  - décembre
