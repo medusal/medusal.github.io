@@ -1,5 +1,5 @@
 <ol class="breadcrumb">
-  <li><a href="{{ site.baseurl }}/">Medusal</a></li>
+  <li><a href="/">Medusal</a></li>
   {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
   {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
   {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
@@ -10,10 +10,12 @@
       {% if current_breadcrumb_url == breadcrumb_page.url %}
         {% assign j = forLoopMaxInt | plus: 0 %}
         {% if i == j %}
-          <li class="active">{{breadcrumb_page.nav_name | default: breadcrumb_page.title}}</li>
+          <li class="active">
+            <a href="{{current_breadcrumb_url}}">{{breadcrumb_page.nav_name | default: breadcrumb_page.title}}</a>
+          </li>
         {% else %}
           <li>
-            <a href="{{breadcrumb_page.url}}">{{breadcrumb_page.nav_name | default: breadcrumb_page.title}}</a>
+            <a href="{{current_breadcrumb_url}}">{{breadcrumb_page.nav_name | default: breadcrumb_page.title}}</a>
           </li>
         {% endif %}
       {% endif %}
@@ -21,7 +23,7 @@
   {% endfor %}
   {% for breadcrumb_page in site.posts %}
     {% if current_breadcrumb_url == breadcrumb_page.url %}
-      <li class="active">{{breadcrumb_page.title}}</li>
+      <li class="active"><a href="{{current_breadcrumb_url}}">{{breadcrumb_page.title}}</a></li>
     {% endif %}
   {% endfor %}
 </ol>

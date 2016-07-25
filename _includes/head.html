@@ -15,4 +15,20 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
+  {% assign page_color = page.color | default: "#85144b" %}
+
+  <style>
+    .page-color { color: {{ page_color }} !important; }
+    .breadcrumb li a:hover { background: {{ page_color }} !important; }
+    .breadcrumb li a:hover:after { border-left-color: {{ page_color }} !important; }
+    .breadcrumb li.active a:after {
+      border-left-color: {{ page_color }} !important;
+    }
+    .breadcrumb li.active a {
+      background: {{ page_color }} !important;
+    }
+    .navbar-nav li.active a {
+      color: {{ page_color }} !important;
+    }
+  </style>
 </head>

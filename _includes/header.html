@@ -20,7 +20,7 @@
             {% assign my_page_url_array = my_page.url | split:'/' | index[1] %}
             {% if page_url_array[1] == my_page_url_array[1] %}
               <li class="active ">
-                <a href="{{ my_page.url | prepend: site.baseurl }}" style="color: {{ my_page.color | default: 'inherit' }}">
+                <a href="{{ my_page.url | prepend: site.baseurl }}">
                   {{ my_page.nav_name }}
                 </a>
               </li>
