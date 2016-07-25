@@ -9,17 +9,19 @@
     {% for breadcrumb_page in site.pages %}
       {% if current_breadcrumb_url == breadcrumb_page.url %}
         {% assign j = forLoopMaxInt | plus: 0 %}
-        <li {% if i == j %}class="active"{% endif %}>
-          <a href="{{breadcrumb_page.url}}">{{breadcrumb_page.nav_name | default: breadcrumb_page.title}}</a>
-        </li>
+        {% if i == j %}
+          <li class="active">{{breadcrumb_page.nav_name | default: breadcrumb_page.title}}</li>
+        {% else %}
+          <li>
+            <a href="{{breadcrumb_page.url}}">{{breadcrumb_page.nav_name | default: breadcrumb_page.title}}</a>
+          </li>
+        {% endif %}
       {% endif %}
     {% endfor %}
   {% endfor %}
   {% for breadcrumb_page in site.posts %}
     {% if current_breadcrumb_url == breadcrumb_page.url %}
-      <li class="active">
-        <a href="{{breadcrumb_page.url}}">{{breadcrumb_page.title}}</a>
-      </li>
+      <li class="active">{{breadcrumb_page.title}}</li>
     {% endif %}
   {% endfor %}
 </ol>
