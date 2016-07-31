@@ -1,3 +1,12 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+p.lead {
+  font-size: 16px;
+}
+
+
 .logo {
   background: transparent url(https://cloud.githubusercontent.com/assets/9364085/16230013/b3560aa8-37bf-11e6-8d19-613a8952ddbc.png) no-repeat left center;
   background-size: 5rem;
@@ -20,37 +29,30 @@
   }
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-}
+.layout-default {
+  h1 {
+    font-weight: 200 !important;
+    margin-top: 30px;
+  }
+  h2 {
+    border-bottom: 1px solid #ddd;
+    font-weight: 400;
+  }
 
-.content {
-  padding-bottom: 30px;
-}
+  h3 {
+    color: black;
+  }
 
-h1 {
-  font-weight: 200 !important;
-  margin-top: 30px;
-}
+  p {
+    margin: $font-size-base 0;
+  }
 
-p.lead {
-  font-size: 16px;
-}
+  .content {
+    padding-bottom: 30px;
+  }
 
-h2 {
-  border-bottom: 1px solid #ddd;
-  font-weight: 400;
-}
-
-h3 {
-  color: black;
-}
-
-p {
-  margin: $font-size-base 0;
-}
-
-.support-footer {
-  margin: 40px 0;
-  text-align: center;
+  .support-footer {
+    margin: 40px 0;
+    text-align: center;
+  }
 }
