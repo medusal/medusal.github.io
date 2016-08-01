@@ -12,47 +12,49 @@ section.wallpaper-background {
   background-image: url(./img/home/hands.png);
 }
 
-.jumbotron {
+.jumbotron2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
   background: rgba(0, 0, 0, 0.3);
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-weight: 300;
   color: white;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.25),0 1px 30px rgba(0,0,0,0.75);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5),0 1px 30px rgba(0,0,0,1);
 
-  .logo{
+  .logo {
     text-align: left;
   }
+
   h1 {
+    margin-top: 2rem;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 2.1rem;
     line-height: 1.15;
   }
   .btn {
-    margin-top: 30px;
+    margin-top: 2rem;
     &:hover {
       text-shadow: none;
     }
   }
   p {
     font-weight: 300;
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 1.4rem;
+    line-height: 1.4;
   }
 }
 
-@media (min-width: $grid-float-breakpoint) {
-  .jumbotron {
+@include media-breakpoint-up(md) {
+  .jumbotron2 {
     text-align: left; 
 
     h1 {
       max-width: 550px;
-      font-size: 48px;
+      font-size: 3.5rem;
     }
     p {
       max-width: 700px;
-      font-size: 30px;
+      font-size: 1.8rem;
     }
   }
 }

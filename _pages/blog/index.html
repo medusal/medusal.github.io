@@ -14,7 +14,7 @@ permalink: "/blog/"
         <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
         <small><a class="page-color" href="/blog/{{ post.categories[0] | downcase }}/">({{ post.categories[0] | replace: 'E-sante', 'E-santé' }})</a></small>
       </h3>
-      <p class="lead">
+      <p>
         {{ post.excerpt | truncatewords: 30 }}
         <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
       </p>

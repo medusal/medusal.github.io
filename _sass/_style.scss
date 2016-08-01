@@ -2,18 +2,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-p.lead {
-  font-size: 16px;
-}
-
-
 .logo {
   background: transparent url(https://cloud.githubusercontent.com/assets/9364085/16230013/b3560aa8-37bf-11e6-8d19-613a8952ddbc.png) no-repeat left center;
-  background-size: 5rem;
-  padding-left: 5rem;
-  line-height: 6rem;
+  background-size: 3.5rem;
+  padding-left: 3.5rem;
+  line-height: 4rem;
   span {
-    font-size: 5rem; 
+    font-size: 3.4rem; 
     &.logo-green {
       color: #C2D400;
     }
@@ -23,36 +18,42 @@ p.lead {
   }
 }
 
-@media (min-width: $grid-float-breakpoint) {
+@include media-breakpoint-up(md) {
   .container-fluid {
-    max-width: 980px;
+    max-width: $container-fluid-max-width;
   }
 }
 
-.layout-default {
-  h1 {
-    font-weight: 200 !important;
-    margin-top: 30px;
-  }
-  h2 {
-    border-bottom: 1px solid #ddd;
-    font-weight: 400;
-  }
+h1 {
+  font-weight: 200;
+  margin-top: 2rem;
+}
 
-  h3 {
-    color: black;
-  }
+h2 {
+  border-bottom: 1px solid #ddd;
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
 
-  p {
-    margin: $font-size-base 0;
-  }
+h3 {
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
 
-  .content {
-    padding-bottom: 30px;
-  }
+p {
+  margin: $font-size-base 0;
 
-  .support-footer {
-    margin: 40px 0;
-    text-align: center;
-  }
+}
+
+.content {
+  padding-bottom: 30px;
+}
+
+.support-footer {
+  margin: 40px 0;
+  text-align: center;
 }
