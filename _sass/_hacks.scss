@@ -1,2 +1,6 @@
-// always on
-body { overflow-y:scroll !important; }
+// scroll y always shown
+// scroll x never shown
+body {
+  overflow-y:scroll !important;
+  overflow-x: hidden;
+}

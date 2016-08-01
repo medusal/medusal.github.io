@@ -1,7 +1,6 @@
 .navbar {
   border-radius: 0 !important;
   box-shadow: 0 1px 3px 0 #bfbfbf;
-  background-color: #fff;
   padding: 0 !important;
   
   .navbar-toggler {
@@ -12,6 +11,9 @@
   .navbar-brand {
     margin-top: .4rem;
     margin-bottom: .3rem;
+    &.active {
+      color: $brand-primary;
+    }
   }
 
   .nav-item + .nav-item {

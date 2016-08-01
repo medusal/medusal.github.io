@@ -1,10 +1,18 @@
 <header class="navbar navbar-static-top">
   <div class="container-fluid">
     <div class="clearfix">
-      <button style="float:right" class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#main-nav">☰</button>
-      <a class="navbar-brand hidden-md-up" href="/">Medusal</a>
+      <button style="float:right" class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#main-nav">☰&nbsp;MENU</button>
+      {% if page.url == '/' %}
+        <a class="navbar-brand hidden-md-up active" href="/">Medusal</a>
+      {% else %}
+        <a class="navbar-brand hidden-md-up" href="/">Medusal</a>
+      {% endif %}
     </div>
-    <a class="navbar-brand hidden-sm-down" href="/">Medusal</a>
+    {% if page.url == '/' %}
+      <a class="navbar-brand hidden-sm-down active" href="/">Medusal</a>
+    {% else %}
+      <a class="navbar-brand hidden-sm-down" href="/">Medusal</a>
+    {% endif %}
     <div class="navbar-toggleable-sm collapse" id="main-nav">
       <ul class="nav navbar-nav">
         {% assign pages = site.pages | sort:"weight"  %}

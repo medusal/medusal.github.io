@@ -3,6 +3,7 @@ title: Blog
 nav_name: Blog
 footer_name: Blog
 permalink: "/blog/"
+color: '#A33D62'
 ---
 <div class="row">
   {% for post in site.posts %}
@@ -10,13 +11,13 @@ permalink: "/blog/"
       <a href="{{ post.url }}">
         <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%; object-fit: cover;" height="200px">
       </a>
-      <h3>
-        <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
-        <small><a class="page-color" href="/blog/{{ post.categories[0] | downcase }}/">({{ post.categories[0] | replace: 'E-sante', 'E-santé' }})</a></small>
+      <h3 class="page-color">
+        {{ post.title }}
+        <small><a href="/blog/{{ post.categories[0] | downcase }}/">({{ post.categories[0] | replace: 'E-sante', 'E-santé' }})</a></small>
       </h3>
       <p>
         {{ post.excerpt | truncatewords: 30 }}
-        <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+        <a href="{{ post.url }}">Lire l'article »</a>
       </p>
     </div>
   {% endfor %}

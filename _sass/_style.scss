@@ -35,10 +35,11 @@ h2 {
   font-size: 1.7rem;
   margin-top: 1.6rem;
   margin-bottom: 0.8rem;
+  color: $gray;
 }
 
 h3 {
-  color: black;
+  color: $gray-dark;
   font-size: 1.2rem;
   margin-top: 1.6rem;
   margin-bottom: 0.8rem;
@@ -46,7 +47,13 @@ h3 {
 
 p {
   margin: $font-size-base 0;
+}
 
+pre {
+  border-radius: $border-radius;
+  padding: 0.8rem 1.2rem;
+  background-color: lighten($brand-primary, 55%);
+  border-left: 6px solid $brand-primary;
 }
 
 .content {

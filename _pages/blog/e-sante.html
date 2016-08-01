@@ -1,6 +1,7 @@
 ---
 title: E-santé
 permalink: "/blog/e-sante/"
+color: '#A33D62'
 ---
 <div class="row">
   {% for post in site.posts %}
@@ -9,12 +10,12 @@ permalink: "/blog/e-sante/"
         <a href="{{ post.url }}">
           <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%; object-fit: cover;" height="200px">
         </a>
-        <h3>
-          <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
+        <h3 class="page-color">
+          {{ post.title }}
         </h3>
         <p>
           {{ post.excerpt | truncatewords: 30 }}
-          <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+          <a href="{{ post.url }}">Lire l'article »</a>
         </p>
       </div>
     {% endif %}

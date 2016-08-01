@@ -3,7 +3,7 @@
 
   .bubble {
     animation: fade 10s infinite;
-    background: lighten(#1ea623, 20%);
+    background: $brand-primary;
     border-radius: 100%;
     position: absolute;
     visibility: hidden;

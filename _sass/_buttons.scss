@@ -1,29 +1,17 @@
-.btn-outline-white {
+.btn-white {
   background-color: transparent !important;
   border-color: #fff !important;
-  border-radius: .25em !important;
-  border-width: 2px !important;
   &:not(:hover), &:not(:hover) {
     color: #fff !important;
   }
   &:hover, &:active {
-    color: $gray-dark;
+    color: $gray;
     background-color: #fff !important;
     border-color: #fff !important;
   }
-  font-weight: 500;
 }
 
-.btn-outline-primary {
-  background-color: transparent !important;
-  border-color: $brand-primary !important;
-  border-radius: .25em !important;
-  &:not(:hover), &:not(:hover) {
-    color: $brand-primary !important;
-  }
-  &:hover, &:active {
-    background-color: $brand-primary !important;
-    border-color: $brand-primary !important;
-    color: white;
-  }
+.btn-fat {
+  font-weight: 600 !important;
+  border-width: 2px !important;
 }

@@ -1,36 +1,32 @@
 <div class="row">
   <div class="col-sm-12 col-md-8">
     {% assign post = site.posts[0] %}
-    <h3><a class="page-color" href={{ post.url }}>{{ post.title }}</a></h3>
+    <h3>{{ post.title }}</h3>
     <a href="{{ post.url }}">
       <img src="{{ post.banner }}" alt="" class="img-rounded" width="100%" height="200px" style="object-fit: cover;">
     </a>
     <p>
       {{ post.excerpt | truncatewords: 50 }}
-      <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+      <a href="{{ post.url }}">Lire l'article »</a>
     </p>
   </div>
   <div class="col-sm-12 col-md-4">
     <hr class="hidden-md-up" />
     {% assign post = site.posts[1] %}
-    <h3>
-      <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
-    </h3>
+    <h3>{{ post.title }}</h3>
     <p>
       {{ post.excerpt | truncatewords: 30 }}
-      <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+      <a href="{{ post.url }}">Lire l'article »</a>
     </p>
   </div>
   <div class="col-sm-12 col-md-4">
     <hr />
   
     {% assign post = site.posts[2] %}
-    <h3>
-      <a class="page-color" href="{{ post.url }}">{{ post.title }}</a>
-    </h3>
+    <h3>{{ post.title }}</h3>
     <p>
       {{ post.excerpt | truncatewords: 30 }}
-      <a class="page-color" href="{{ post.url }}">Lire l'article »</a>
+      <a href="{{ post.url }}">Lire l'article »</a>
     </p>
     
   </div>

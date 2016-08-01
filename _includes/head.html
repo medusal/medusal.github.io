@@ -9,17 +9,19 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
 
-  <style>
-    {% assign page_color = page.color | default: "#85144b" %}
-    .page-color { color: {{ page_color }} !important; }
-    .breadcrumb li.active a:after {
-      border-left-color: {{ page_color }} !important;
-    }
-    .breadcrumb li.active a {
-      background: {{ page_color }} !important;
-    }
-    .navbar-nav li.active a {
-      color: {{ page_color }} !important;
-    }
-  </style>
+  {% if page.color %}
+    <style>
+      {% assign page_color = page.color %}
+      .page-color { color: {{ page_color }} !important; }
+      .breadcrumb li.active a:after {
+        border-left-color: {{ page_color }} !important;
+      }
+      .breadcrumb li.active a {
+        background: {{ page_color }} !important;
+      }
+      .navbar-nav li.active a {
+        color: {{ page_color }} !important;
+      }
+    </style>
+  {% endif %}
 </head>

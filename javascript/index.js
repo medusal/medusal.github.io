@@ -18,13 +18,13 @@ ACTIVE:".active",ACTIVE_CHILD:"> .nav-item > .active, > .active",DATA_TOGGLE:'[d
 
 document.addEventListener('DOMContentLoaded', function() {
   var bubbles = document.getElementsByClassName('bubbles')[0]
-  if (bubbles) {
+  if (screen.width > 768 && bubbles) {
     var randomN = function(start, end){
       return Math.random()*end+start
     }
     var i = 0
     var generateBubble = function(){
-      if(i < 20){
+      if(i < 10){
         var el = document.createElement('div'),
             size = randomN(5, 10)
         el.setAttribute('style','width: '+size+'px; height: '+size+'px; left:'+randomN(1, bubbles.offsetWidth-(size+4) )+'px;')
@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     generateBubble()
 
-    var inter = setInterval(generateBubble, 500);
+    var inter = setInterval(generateBubble, 1000);
   }
 })
+
+
