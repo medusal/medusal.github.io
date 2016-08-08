@@ -1,0 +1,58 @@
+section {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+
+  &.odd {
+    background-color: #f9fafb;
+  }
+
+  &.even {
+    background-color: white;
+  }
+
+  &.green-light {
+    background: radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623);
+    color: #1ea623;
+  }
+
+  &.blue {
+    background-image: linear-gradient(140deg, $brand-primary 10%, #65133a 90%);
+    h2 {
+      border-bottom: none;
+    }
+  }
+
+  &.wallpaper {
+    position: relative;
+    background-color: #3c465a;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/home/hands.png);
+  }
+
+  &.bubbles {
+    position: relative;
+
+    .bubble {
+      animation: fade 10s infinite;
+      background: $brand-primary;
+      border-radius: 100%;
+      position: absolute;
+      visibility: hidden;
+
+      @keyframes fade {
+        from {
+          bottom: 0%;
+          opacity: 1;
+          visibility: visible;
+        }
+
+        to {
+          opacity: .1;
+          bottom: 95%;
+        }
+      }
+    }
+  }
+}
