@@ -38,8 +38,10 @@
 
 @include media-breakpoint-down(sm) {
   .navbar-nav li {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     a {
-      padding: 0 0rem;
+      text-align: center;
       background-color: transparent !important;
     }
     &:first-child {
@@ -52,6 +54,9 @@
 }
 
 @include media-breakpoint-up(md) {
+  .navbar-nav.right {
+    float: right;
+  }
   .navbar-nav .active a {
     border-bottom: 5px solid;
     margin-bottom: -5px;

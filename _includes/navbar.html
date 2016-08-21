@@ -22,15 +22,21 @@
             {% assign my_page_url_array = my_page.url | split:'/' | index[1] %}
             {% if page_url_array[1] == my_page_url_array[1] %}
               <li class="nav-item active">
-                <a class="nav-item nav-link" href="{{ my_page.url | prepend: site.baseurl }}">
+                <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">
                   {{ my_page.nav_name }}
                 </a>
               </li>
             {% else %}
-              <li class="nav-item {{ page_url_array[1] }} {{ my_page_url_array[1] }}"><a class="nav-item nav-link"  href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_name }}</a></li>
+              <li class="nav-item {{ page_url_array[1] }} {{ my_page_url_array[1] }}"><a class="nav-link"  href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_name }}</a></li>
             {% endif %}
           {% endif %}
         {% endfor %}
+      </ul>
+
+      <ul class="nav navbar-nav right">
+        <li class="nav-item"><a class="nav-link" target="blank" href="http://app.medusal.com/login">
+          <i class="fa fa-fw fa-external-link-square"></i>Connexion
+        </a></li>
       </ul>
     </div>
   </div><!-- /.container-fluid -->
