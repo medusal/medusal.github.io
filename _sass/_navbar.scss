@@ -5,6 +5,7 @@
   
   .navbar-toggler {
     margin-top: .4rem;
+    padding-right: 0 !important;
     outline: none;
   }
 
@@ -42,6 +43,7 @@
     padding-bottom: .5rem;
     a {
       text-align: center;
+      font-size: 1.2rem;
       background-color: transparent !important;
     }
     &:first-child {
