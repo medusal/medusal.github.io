@@ -16,28 +16,21 @@
   border-width: 2px !important;
 }
 
-@include media-breakpoint-down(xs) {
-  .btn-toolbar-responsive {
+.btn-toolbar {
+  margin-bottom: -.5rem;
+  &>.btn {
     margin-bottom: .5rem;
-    &>.btn:not(:last-of-type) {
-      margin-bottom: .5rem;
-    }
-  }
-}
-
-@include media-breakpoint-up(sm) {
-  .btn-toolbar-responsive {
-    &>.btn, &>.btn-group {
-      margin-bottom: .5rem;
-    }
-    margin-bottom: -.5rem;
   }
 }
 
 @include media-breakpoint-down(xs) {
   .btn, .input-group, .btn-group {
     display: block;
-    font-size: 1.2em !important;
-    line-height: 2em !important;
+  }
+}
+
+.btn {
+  &:hover {
+    text-shadow: none;
   }
 }
