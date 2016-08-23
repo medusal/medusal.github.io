@@ -10,10 +10,10 @@ body {
   span {
     font-size: 3.4rem; 
     &.logo-green {
-      color: #C2D400;
+      color: $brand-success;
     }
     &.logo-blue {
-      color: #38BED6;
+      color: $brand-info;
     }
   }
 }

@@ -1,3 +1,6 @@
+a {
+  font-weight: 600;
+}
 .btn-white {
   background-color: transparent !important;
   border-color: #fff !important;
@@ -12,7 +15,7 @@
 }
 
 .btn-fat {
-  font-weight: 600 !important;
+  font-weight: 800 !important;
   border-width: 2px !important;
 }
 
@@ -30,7 +33,17 @@
 }
 
 .btn {
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 2;
+  font-size: 0.9rem;
   &:hover {
     text-shadow: none;
   }
+}
+.btn-sm {
+  font-size: 0.6rem;
+}
+.btn-lg {
+  font-size: 1rem;
 }

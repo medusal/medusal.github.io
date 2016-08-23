@@ -10,10 +10,10 @@
           <h1 class="page-color">{{ page.title }}</h1>
         {% endif %}
         {% if page.categories %}
-          <small class="mute page-color">Posté dans <a href="/blog/{{ page.categories[0] | downcase }}">{{ page.categories[0] | replace: 'E-sante', 'E-santé' }}</a></small>
+          <small class="mute">Posté dans <a href="/blog/{{ page.categories[0] | downcase }}">{{ page.categories[0] | replace: 'E-sante', 'E-santé' }}</a></small>
         {% endif %}
         {% if page.categories && page.date %}
-          <small class="mute page-color">-</small>
+          <small class="mute">-</small>
         {% endif %}
         {% if page.date %}
           {% capture i18n_date %}
@@ -23,7 +23,7 @@
             {{ page.date | date: "%Y" }}
           {% endcapture %}
 
-          <small class="mute page-color">le {{ i18n_date }}</small>
+          <small class="mute">le {{ i18n_date }}</small>
         {% endif %}
 
 

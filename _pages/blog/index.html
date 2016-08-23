@@ -11,7 +11,7 @@ color: '#A33D62'
       <a href="{{ post.url }}">
         <img src="{{ post.banner }}" alt="" class="img-rounded" style="width:100%; object-fit: cover;" height="200px">
       </a>
-      <h3 class="page-color">
+      <h3>
         {{ post.title }}
         <small><a href="/blog/{{ post.categories[0] | downcase }}/">({{ post.categories[0] | replace: 'E-sante', 'E-santé' }})</a></small>
       </h3>
