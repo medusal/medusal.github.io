@@ -37,6 +37,9 @@ h1 {
 
 h2 {
   font-family: $font-family-serif;
+  small {
+    font-family: $font-family-sans-serif;
+  }
   border-bottom: 1px solid #ddd;
   font-weight: 300;
   font-size: 1.7rem;
