@@ -3,6 +3,8 @@ body {
 }
 
 .logo {
+  font-variant: small-caps;
+  text-transform: lowercase;
   background: transparent url(https://cloud.githubusercontent.com/assets/9364085/16230013/b3560aa8-37bf-11e6-8d19-613a8952ddbc.png) no-repeat left center;
   background-size: 3.5rem;
   padding-left: 3.5rem;
@@ -34,6 +36,7 @@ h1 {
 }
 
 h2 {
+  font-family: $font-family-serif;
   border-bottom: 1px solid #ddd;
   font-weight: 300;
   font-size: 1.7rem;
@@ -51,6 +54,9 @@ h3 {
 
 p {
   margin: $font-size-base 0;
+  &.small {
+    font-size: 85%;
+  }
 }
 
 pre {
@@ -67,4 +73,8 @@ pre {
 .support-footer {
   margin: 40px 0;
   text-align: center;
+}
+
+small.text-uppercase {
+  font-size: 65%;
 }
