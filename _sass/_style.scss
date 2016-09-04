@@ -46,7 +46,7 @@ h2 {
   font-size: 1.7rem;
   margin-top: 1.6rem;
   margin-bottom: 0.8rem;
-  color: darken($brand-primary, 10%);
+  color: $gray;
 }
 
 h3 {
@@ -66,7 +66,7 @@ p {
 pre {
   border-radius: $border-radius;
   padding: 0.8rem 1.2rem;
-  background-color: lighten($brand-primary, 55%);
+  background-color: lighten($brand-primary, 35%);
   border-left: 6px solid $brand-primary;
 }
 
