@@ -3,6 +3,7 @@ body {
 }
 
 .logo {
+  text-shadow: none;
   font-variant: small-caps;
   text-transform: lowercase;
   background: transparent url(https://cloud.githubusercontent.com/assets/9364085/16230013/b3560aa8-37bf-11e6-8d19-613a8952ddbc.png) no-repeat left center;
@@ -45,7 +46,7 @@ h2 {
   font-size: 1.7rem;
   margin-top: 1.6rem;
   margin-bottom: 0.8rem;
-  color: $gray;
+  color: darken($brand-primary, 10%);
 }
 
 h3 {
