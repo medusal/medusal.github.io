@@ -3,7 +3,14 @@ title: ''
 layout: home
 permalink: "/"
 ---
-
+<SCRIPT LANGUAGE="JavaScript">
+function PopupImage(img) {
+	w=open("",'image','weigth=toolbar=no,scrollbars=no,resizable=no,');	
+	w.document.write("<HTML><BODY onblur=\"window.close();\"><IMG src='"+img+"'>");
+	w.document.write("</BODY></HTML>");
+	w.document.close();
+}
+</script>
 <div class="home">
   <section class="hero blue">
     <div class="container-fluid">
@@ -111,7 +118,8 @@ permalink: "/"
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <img src="/assets/PatAdmin.PNG" class="w-100 screenshot">
+          <a href="javascript:PopupImage('/assets/PatAdminAll.PNG')">
+<img src="/assets/PatAdmin.PNG" class="w-200 screenshot"></a>
         </div>
         <div class="col-xs-12 col-md-6">
           <h2>Dossier du patient épuré</h2>
