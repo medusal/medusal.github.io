@@ -5,6 +5,14 @@ footer_name: ''
 permalink: "/template/"
 color: "#FF4136"
 ---
+<SCRIPT LANGUAGE="JavaScript">
+function PopupImage(img) {
+	w=open("",'image','weigth=toolbar=no,scrollbars=no,resizable=yes, width=510, height=210');	
+	w.document.write("<HTML><BODY onblur=\"window.close();\"><IMG src='"+img+"'>");
+	w.document.write("</BODY></HTML>");
+	w.document.close();
+}
+</script>
 
 <p class="lead">Your profile contributions graph is a record of contributions you've made to GitHub repositories. Contributions are only counted if they meet certain criteria. In some cases, we may need to rebuild your graph in order for contributions to appear.</p>
 
@@ -126,3 +134,5 @@ end
   <a href="#" class="btn btn-sm btn-primary">btn-sm</a>
 </div>
 
+<a href="javascript:PopupImage(/assets/PatSuiviMed.PNG)">
+<img src="/assets/PatSuiviMed.PNG" width="60" height="30" border="0" alt=""></a>
