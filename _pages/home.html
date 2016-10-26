@@ -3,14 +3,6 @@ title: Accueil
 layout: home
 permalink: "/"
 ---
-<SCRIPT LANGUAGE="JavaScript">
-function PopupImage(img) {
-	w=open("",'image','weigth=toolbar=no,scrollbars=no,resizable=no,');	
-	w.document.write("<HTML><BODY onblur=\"window.close();\"><IMG src='"+img+"'>");
-	w.document.write("</BODY></HTML>");
-	w.document.close();
-}
-</script>
 <div class="home">
   <section class="hero blue background-image:url(/assets/macimg.png)">
     <div class="container-fluid">
@@ -25,7 +17,7 @@ function PopupImage(img) {
         Accédez-y sur tous vos ordinateurs et devices, modifiez-les hors-ligne si besoin. Les données sont synchronisées dès la prochaine connexion.
       </p>
       <div class="btn-toolbar text-xs-center text-md-left m-t-2">
-        <a href="/about" class="btn btn-lg btn-white btn-fat">Je crée mon compte</a>
+        <button href="/" disabled="disabled" class="btn btn-lg btn-white btn-fat">Bientôt disponible</button>
       </div>
     </div>
   </section>
@@ -68,24 +60,26 @@ function PopupImage(img) {
         </div>
         <div class="col-xs-12 col-md-6">
           <h2>Notre solution sécurisée</h2>
-            <h3>
-                Logiciel de gestion des patients
-            </h3>
-          <p>
-<li>Gestion administrative patient</li>
-<li>Gestion automatisées des impayés</li>
-<li>Mobilité simple sans connexion internet</li>
-<li>Agenda</li>
-<li>Mises à jours transparentes : aucune maintenance</li>
-
-<h3>
-    Communauté santé en ligne sécurisée
-            </h3>
-<li>Autour du patient, cercles de confrères</li>
-<li>Résultats laboratoire et imagerie médicale</li>
-<li>Double authentification RPPS</li>
-<li>Prescriptions intelligentes</li>
-<li>Renforcement des liens avec les patients</li></p>
+          <h3>
+            Logiciel de gestion des patients
+          </h3>
+          <ul>
+            <li>Gestion administrative patient</li>
+            <li>Gestion automatisées des impayés</li>
+            <li>Mobilité simple sans connexion internet</li>
+            <li>Agenda</li>
+            <li>Mises à jours transparentes : aucune maintenance</li>
+          </ul>
+          <h3>
+              Communauté santé en ligne sécurisée
+          </h3>
+          <ul>
+            <li>Autour du patient, cercles de confrères</li>
+            <li>Résultats laboratoire et imagerie médicale</li>
+            <li>Double authentification RPPS</li>
+            <li>Prescriptions intelligentes</li>
+            <li>Renforcement des liens avec les patients</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -96,17 +90,13 @@ function PopupImage(img) {
       <div class="row">
         <div class="col-xs-12 col-md-6">
           <h2>Agenda simple et clair</h2>
-          <p>
+          <ul>
             <li>Prise de RDV simple</li>
             <li>Photos patients</li>
             <li>Visibilité des praticiens qui ont en partage une partie du dossier</li>
             <li>Vue multi patients</li>
-            <li>Vue multi praticiens</li></p>
-          <p>
-            <a href="https://app.medusal.com/login" class="btn btn-primary">
-              J'essaie !
-            </a>
-          </p>
+            <li>Vue multi praticiens</li>
+          </ul>
         </div>
         <div class="col-xs-12 col-md-6">
           <img src="/assets/agenda.png" class="w-100 screenshot">
@@ -118,18 +108,18 @@ function PopupImage(img) {
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <a href="javascript:PopupImage('/assets/PatAdminAll.PNG')">
-<img src="/assets/PatAdmin.PNG" class="w-100 screenshot"></a>
+          <img src="/assets/PatAdmin.PNG" class="w-100 screenshot">
         </div>
         <div class="col-xs-12 col-md-6">
           <h2>Dossier du patient épuré</h2>
-          <p><li>Contrôle auto du numéro de SS (évite les rejets)</li>
+          <ul>
+            <li>Contrôle auto du numéro de SS (évite les rejets)</li>
             <li>Suivi des constantes avec courbes</li>
             <li>Suivi automatisés des impayés</li>
             <li>Antécédents médicaux et familiaux</li>
             <li>Allergies</li>
             <li>Et d'autres fonctionnalits à venir... !</li>
-         </p>
+         </ul>
         </div>
       </div>
     </div>
@@ -140,22 +130,18 @@ function PopupImage(img) {
       <div class="row">
         <div class="col-xs-12 col-md-6">
           <h2>Suivi du patient lisible et complet</h2>
-          <p> <li>Prescriptions intelligents ou libres</li>
+          <ul>
+            <li>Prescriptions intelligents ou libres</li>
             <li>Suivi des vaccins</li>
             <li>Prises de photos</li>
             <li>Scan de documents externes</li>
-              <li>Edition de courriers</li>
-              <li>Catégorisation des notes pour filtres efficaces</li>
+            <li>Edition de courriers</li>
+            <li>Catégorisation des notes pour filtres efficaces</li>
             <li>Et d'autres fonctionnalits à venir... !</li></p>
-          <p>
-            <a href="https://app.medusal.com/login" class="btn btn-primary">
-              J'essaie !
-            </a>
-          </p>
+          </ul>
         </div>
         <div class="col-xs-12 col-md-6">
-          <a href="javascript:PopupImage('/assets/PatSuiviMed.PNG')">
-<img src="/assets/PatSuiviMed.PNG" class="w-100 screenshot"></a>
+          <img src="/assets/PatSuiviMed.PNG" class="w-100 screenshot">
         </div>
       </div>
     </div>

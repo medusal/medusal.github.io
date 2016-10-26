@@ -12,7 +12,7 @@
         {% if page.categories %}
           <small class="mute">Posté dans <a href="/blog/{{ page.categories[0] | downcase }}">{{ page.categories[0] | replace: 'E-sante', 'E-santé' }}</a></small>
         {% endif %}
-        {% if page.categories && page.date %}
+        {% if page.categories and page.date %}
           <small class="mute">-</small>
         {% endif %}
         {% if page.date %}
