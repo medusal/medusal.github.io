@@ -18,8 +18,8 @@
         {% assign pages = site.pages | sort:"weight"  %}
         {% assign page_url_array = page.url | split:'/' | index[1] %}
         {% for my_page in pages %}
-          {% if my_page.nav_name %}
-            {% assign my_page_url_array = my_page.url | split:'/' | index[1] %}
+          {% if my_page.nav_name != nil and my_page.nav_name != '' %}
+            {% assign my_page_url_array = my_page.url | split: '/' | index[1] %}
             {% if page_url_array[1] == my_page_url_array[1] %}
               <li class="nav-item active">
                 <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">
