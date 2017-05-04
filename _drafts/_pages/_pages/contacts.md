@@ -1,11 +1,11 @@
 ---
 layout: home
-nav_name: CGU/CGA
-footer_name: CGU CGA
-excerpt: 
+nav_name: Contactez-nous
+footer_name: Contactez-nous
+excerpt: ''
 color: "#3D9970"
 weight: 10
-permalink: "/cgu/"
+permalink: "/contacts/"
 title: Contacts
 noindex: true
 nocontainer: true
