@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: ''
 nav_name: Contactez-nous
 footer_name: Contactez-nous
 excerpt: ''
@@ -9,5 +9,5 @@ permalink: "/contacts/"
 title: Contacts
 noindex: true
 nocontainer: true
-date: '2017-05-04T12:09:45.512Z'
+date: '2017-05-04T12:43:21.416Z'
 ---
