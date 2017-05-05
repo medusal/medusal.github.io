@@ -1,15 +1,17 @@
 .navbar {
   border-radius: 0 !important;
   box-shadow: 0 1px 3px 0 #bfbfbf;
-  padding: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
   font-variant: small-caps;
   text-transform: lowercase;
 
   .navbar-toggler {
-    margin-top: .4rem;
+    margin-top: .6rem;
     padding-right: 0 !important;
     outline: none;
     font-variant: small-caps;
+    cursor: pointer;
   }
 
   .navbar-brand {
