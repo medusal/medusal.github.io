@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-sm-12 col-md-8">
+  <div class="col-12 col-md-7">
     {% assign post = site.posts[0] %}
     <h3>{{ post.title }}</h3>
     <a href="{{ post.url }}">
@@ -10,7 +10,7 @@
       <a href="{{ post.url }}">Lire l'article »</a>
     </p>
   </div>
-  <div class="col-sm-12 col-md-4">
+  <div class="col-12 col-md-5">
     <hr class="hidden-md-up" />
     {% assign post = site.posts[1] %}
     <h3>{{ post.title }}</h3>
@@ -18,8 +18,7 @@
       {{ post.excerpt | truncatewords: 30 }}
       <a href="{{ post.url }}">Lire l'article »</a>
     </p>
-  </div>
-  <div class="col-sm-12 col-md-4">
+
     <hr />
   
     {% assign post = site.posts[2] %}
