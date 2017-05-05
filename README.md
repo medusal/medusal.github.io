@@ -4,6 +4,8 @@ medusal website
 # launch
 ```bash
 # install live-reload in chrome
+# https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
+bundle
 guard
-# refresh http://localhost:4000
+# http://localhost:4000
 ```

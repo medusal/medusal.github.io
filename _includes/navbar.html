@@ -1,38 +1,38 @@
-<nav class="navbar navbar-static-top navbar-toggleable-sm">
-  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#main-nav">
-    ☰&nbsp;Menu
-  </button>
-  {% if page.url == '/' %}
-    <a class="navbar-brand active" href="/">Medusal</a>
-  {% else %}
-    <a class="navbar-brand" href="/">Medusal</a>
-  {% endif %}
-  <div class="navbar-collapse collapse" id="main-nav">
-    <ul class="navbar-nav">
-      {% assign pages = site.pages | sort:"weight"  %}
-      {% assign page_url_array = page.url | split:'/' | index[1] %}
-      {% for my_page in pages %}
-        {% if my_page.nav_name != nil and my_page.nav_name != '' %}
-          {% assign my_page_url_array = my_page.url | split: '/' | index[1] %}
-          {% if page_url_array[1] == my_page_url_array[1] %}
-            <li class="nav-item active">
-              <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">
-                {{ my_page.nav_name }}
-              </a>
-            </li>
-          {% else %}
-            <li class="nav-item {{ page_url_array[1] }} {{ my_page_url_array[1] }}"><a class="nav-link"  href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_name }}</a></li>
+<nav class="navbar navbar-static-top navbar-toggleable-sm ">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#main-nav">
+      ☰&nbsp;Menu
+    </button>
+    {% if page.url == '/' %}
+      <a class="navbar-brand active" href="/">Medusal</a>
+    {% else %}
+      <a class="navbar-brand" href="/">Medusal</a>
+    {% endif %}
+    <div class="navbar-collapse collapse" id="main-nav">
+      <ul class="navbar-nav mr-auto">
+        {% assign pages = site.pages | sort:"weight"  %}
+        {% assign page_url_array = page.url | split:'/' | index[1] %}
+        {% for my_page in pages %}
+          {% if my_page.nav_name != nil and my_page.nav_name != '' %}
+            {% assign my_page_url_array = my_page.url | split: '/' | index[1] %}
+            {% if page_url_array[1] == my_page_url_array[1] %}
+              <li class="nav-item active">
+                <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">
+                  {{ my_page.nav_name }}
+                </a>
+              </li>
+            {% else %}
+              <li class="nav-item {{ page_url_array[1] }} {{ my_page_url_array[1] }}"><a class="nav-link"  href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_name }}</a></li>
+            {% endif %}
           {% endif %}
-        {% endif %}
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </ul>
 
-    <ul class="nav navbar-nav right">
-      <li class="nav-item">
-        <a class="nav-link disabled" target="blank">
-          <i class="fa fa-fw fa-external-link-square"></i>Connexion
-        </a>
-      </li>
-    </ul>
-  </div>
+      <ul class="nav navbar-nav right">
+        <li class="nav-item">
+          <a class="nav-link disabled" target="blank">
+            <i class="fa fa-fw fa-external-link-square"></i>Connexion
+          </a>
+        </li>
+      </ul>
+    </div>
 </nav>
