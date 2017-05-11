@@ -1,132 +1,176 @@
 ---
 title: Medusearch
 permalink: "/medusearch/"
-color: "#A33D62"
-date: '2017-05-11T14:59:28.419Z'
-nav_name: ''
-footer_name: ''
-noindex: true
-layout: home
-nocontainer: true
-excerpt: ''
-weight: 10
+color: "#FF4136"
 ---
-<p class="lead">Your profile contributions graph is a record of contributions you've made to GitHub repositories. Contributions are only counted if they meet certain criteria. In some cases, we may need to rebuild your graph in order for contributions to appear.</p>
-
-<h2>Contributions that are counted</h2>
-
-<h3>Issues and pull requests</h3>
-<p>Issues and pull requests will appear on your contributions graph if they meet both of these conditions:</p>
-<ul>
-  <li>They were opened within the past year.</li>
-  <li>They were opened in a standalone repository, not a fork.</li>
-</ul>
-
-<h3>Commits</h3>
-<p>Commits will appear on your contributions graph if they meet all of the following conditions:</p>
-<ul>
-  <li>The commits were made within the past year.</li>
-  <li>The email address used for the commits is associated with your GitHub account.</li>
-  <li>The commits were made in a standalone repository, not a fork.</li>
-  <li>The commits were made:
-  <ul>
-    <li>In the repository's default branch (usually <code>master</code>)</li>
-    <li>In the <code>gh-pages</code> branch (for repositories with <a href="/articles/user-organization-and-project-pages/#project-pages">Project Pages sites</a>)</li>
-  </ul>
-  </li>
-</ul>
-<p>In addition, <strong>at least one</strong> of the following must be true:</p>
-<ul>
-  <li>You are a collaborator on the repository or are a member of the organization that owns the repository.</li>
-  <li>You have forked the repository.</li>
-  <li>You have opened a pull request or issue in the repository.</li>
-  <li>You have starred the repository.</li>
-</ul>
-<div class="alert alert-info">
-  Contributions to private repositories will only appear to users who can access those repositories. Those contributions are not rendered for users who cannot access those repositories.
-</div>
-
-<h2>Common reasons that contributions are not counted</h2>
-<h3>You haven't added your local Git commit email to your profile</h3>
-
-<p>Commits must be made with an email address that has been added to your GitHub profile in order to appear on your contributions graph. You can check the email address used for a commit by adding <code>.patch</code> to the end of a commit URL, e.g. <a href="https://github.com/octocat/octocat.github.io/commit/67c0afc1da354d8571f51b6f0af8f2794117fd10.patch" data-proofer-ignore=""></a><a href="https://github.com/octocat/octocat.github.io/commit/67c0afc1da354d8571f51b6f0af8f2794117fd10.patch">https://github.com/octocat/octocat.github.io/commit/67c0afc1da354d8571f51b6f0af8f2794117fd10.patch</a>:</p>
-
-<pre><code>From 67c0afc1da354d8571f51b6f0af8f2794117fd10 Mon Sep 17 00:00:00 2001
-From: The Octocat &lt;octocat@nowhere.com&gt;
-Date: Sun, 27 Apr 2014 15:36:39 +0530
-Subject: [PATCH] updated index for better welcome message
-</code></pre>
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-<p>The email address in the <code>From:</code> field is the address that was set in the <a href="/articles/set-up-git">local git config settings</a>. In this example, the email address used for the commit is <code>octocat@nowhere.com</code>.</p>
-
-<p>If the email address used for the commit hasn't been added to your GitHub profile, you must <a href="/articles/adding-an-email-address-to-your-github-account">add the email address</a> to your GitHub account. Your contributions graph will be rebuilt automatically when you add the new address.</p>
-
-<div class="alert alert-warning">
-  Generic email addresses--such as <code>jane@computer.local</code>--cannot be added to GitHub accounts. If you use such an email for your commits, the commits will not be linked to your GitHub profile and will not show up in your contributions graph.
-</div>
-
-<h3><a id="commit-was-not-made-in-the-default-or-gh-pages-branch" class="anchor" href="#commit-was-not-made-in-the-default-or-gh-pages-branch" aria-hidden="true"><span class="octicon octicon-link"></span></a>Commit was not made in the default or <code>gh-pages</code> branch</h3>
-
-<p>Commits are only counted if they are made in the default branch (usually <code>master</code>) or the <code>gh-pages</code> branch (for repositories with <a href="/articles/user-organization-and-project-pages/#project-pages">Project Pages sites</a>). If your commits are in a non-default or non-<code>gh-pages</code> branch and you'd like them to count toward your contributions, you will need to do one of the following:</p>
-
-<ul>
-  <li><a href="/articles/creating-a-pull-request">Open a pull request</a> to have your changes merged into the default branch or the <code>gh-pages</code> branch.</li>
-  <li><a href="/articles/setting-the-default-branch">Change the default branch</a> of the repository.</li>
-</ul>
-
-<h2>Further reading</h2>
-<ul>
-  <li>"<a href="/articles/publicizing-or-hiding-your-private-contributions-on-your-profile">Publicizing or hiding your private contributions on your profile</a>"</li>
-  <li>"<a href="/articles/viewing-contributions-on-your-profile-page">Viewing contributions on your profile page</a>"</li>
-</ul>
-
-<h2>Buttons</h2>
-
-<h3>Toolbar</h3>
-<div class="btn-toolbar">
-  <a href="#" class="btn btn-info">
-    <i class="fa fa-comment fa-fw"></i>Contact a human
-  </a>
-  <a href="#" class="btn btn-warning">
-    <i class="fa fa-ban fa-fw"></i>Cancel subscription
-  </a>
-  <a href="#" class="btn btn-outline-danger pull-md-right">
-    <i class="fa fa-trash fa-fw"></i>Delete account
-  </a>
-</div>
-
-<h3>Colors</h3>
-<div class="btn-toolbar">
-  <a href="#" class="btn btn-primary">btn-primary</a>
-  <a href="#" class="btn btn-secondary">btn-secondary</a>
-  <a href="#" class="btn btn-info">btn-info</a>
-  <a href="#" class="btn btn-success">btn-success</a>
-  <a href="#" class="btn btn-warning">btn-warning</a>
-  <a href="#" class="btn btn-danger">btn-danger</a>
-</div>
-<h3>Outline</h3>
-<div class="btn-toolbar">
-  <a href="#" class="btn btn-outline-primary">btn-outline-primary</a>
-  <a href="#" class="btn btn-outline-secondary">btn-outline-secondary</a>
-  <a href="#" class="btn btn-outline-info">btn-outline-info</a>
-  <a href="#" class="btn btn-outline-success">btn-outline-success</a>
-  <a href="#" class="btn btn-outline-warning">btn-outline-warning</a>
-  <a href="#" class="btn btn-outline-danger">btn-outline-danger</a>
-</div>
-<h3>Fat</h3>
-<div class="btn-toolbar">
-  <a href="#" class="btn btn-fat btn-primary">btn-fat</a>
-  <a href="#" class="btn btn-fat btn-outline-primary">btn-fat btn-outline-primary</a>
-</div>
-<h3>Size</h3>
-<div class="btn-toolbar">
-  <a href="#" class="btn btn-lg btn-primary">btn-lg</a>
-  <a href="#" class="btn btn-primary">btn</a>
-  <a href="#" class="btn btn-sm btn-primary">btn-sm</a>
+<div class="home">
+  <section class="hero blue">
+    <div class="container-fluid">
+      <h1 class="text-center"><b>Prenez RDV en ligne gratuitement</b></h1><br>
+      <p class="text-center"><b>Medusearch : annuaire de médecins généralistes, spécialistes simple et gratuit</b></p><br>
+      <div class="text-center">
+        <input placeholder="Votre recherche - exemple : ''Gynécologue Nice''" class="form-control bigForm" name="search_qui" type="text" value="" id="search_qui"> 
+        <input placeholder="Où ? Adresse, Région, Ville.. (facultatif)" class="form-control bigForm" name="search_qui" type="text" value="" id="search_qui">
+        <br><button href="/" class="btn btn-lg btn-white btn-fat">RECHERCHER</button><br><br>      
+        </div>
+    </div>
+  </section>
+  <section class="even">
+    <div class="container-fluid">
+      <h2 class="text-center"><small class="text-muted mb-1 d-block text-uppercase"></small>
+      Vous êtes professionnel de santé ?</h2>
+      <p class="lead text-center">Inscrivez vous gratuitement sur Medusal et Medusearch</p>
+      <div class="text-center">
+        <button href="/pricing" class="btn btn-lg btn-black btn-fat">Commencer gratuitement <br>(bientôt disponible)</button><br><br>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <h3 class="text-center">100% mobilité</h3>
+          <img src="/css/img/home/cloud-connected.svg" height="60px" class="mx-auto d-block"/>
+          <p class="text-center small">Etre indépendant des problèmes Internet : disponibilité des données en ligne ou hors-ligne assurée automatiquement à 100%</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <h3 class="text-center">Communauté santé</h3>
+          <img src="/css/img/home/community.svg" height="60px" class="mx-auto d-block"/>
+          <p class="text-center small">L'union fait la force&nbsp;: créez et accédez à votre cercle de confrères autour des parcours de soins des patients<br>-Bientôt disponible-</p>
+        </div>
+        <div class="clearfix hidden-lg-up"></div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <h3 class="text-center">Agenda</h3>
+          <img src="/css/img/home/e-health.svg" height="60px" class="mx-auto d-block"/>
+          <p class="text-center small">Gérez simplement vos RDV en ligne sur une seule plateforme, compatible tout smartphone. Sa gestion peut être déléguée à un secrétariat</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <h3 class="text-center">100% sécurisé</h3>
+          <img src="/css/img/home/secure.svg" height="60px" class="mx-auto d-block"/>
+          <p class="text-center small">La sécurité des données avant tout&nbsp;: base de donnée labélisée HDS, conformité aux dernières réglementations CNIL</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr/>
+  <section class="odd">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <img src="{{ site.baseurl }}/css/img/home/central-medusal-fr-transp.svg" class="w-100">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2>Notre solution sécurisée</h2>
+          <h3>
+            Profitez dès maintenant :
+          </h3>
+          <ul>
+            <li>Gestion administrative patient</li>
+            <li>Mobilité simple sans connexion internet</li>
+            <li>Agenda unique </li>
+            <li>Mises à jours transparentes : aucune maintenance</li>
+            <li>Prescriptions intelligentes</li>
+            <li>Personnalisation de l'interface</li>
+            <li>Signature numérique</li>
+          </ul>
+          <h3>
+              Patientez, nous arrivons bientôt :
+          </h3>
+          <ul>
+            <li>Gestion automatisée des impayés</li>
+            <li>Autour du patient, cercles de confrères</li>
+            <li>Résultats laboratoire et imagerie médicale</li>
+            <li>Double authentification RPPS</li>
+            <li>Renforcement des liens avec les patients</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr/>
+  <section class="even">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2>Agenda unique, simple et clair</h2>
+          <ul>
+            <li>Prise de RDV simple</li>
+            <li>Photos patients</li>
+            <li>Plateforme unique de gestion</li>
+            <li>Vue multi-patients</li>
+            <li>Compatible tout smartphone</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <a href="/assets/agendas.png" target="_blank"><img src="/assets/agendas.png" class="w-100 screenshot"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr/>
+  <section class="odd">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <a href="/assets/PatAdmin.PNG" target="_blank"><img src="/assets/PatAdmin.PNG" class="w-100 screenshot"></a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2>Dossier du patient épuré</h2>
+          <ul>
+            <li>Contrôle du numéro de sécurité sociale (évite les rejets)</li>
+            <li>Suivi des constantes avec courbes</li>
+            <li>Lecture automatique de la carte vitale</li>
+            <li>Antécédents médicaux et familiaux</li>
+            <li>Allergies</li>
+         </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr/>
+  <section class="even">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2>Suivi du patient lisible et complet</h2>
+          <ul>
+            <li>Prescriptions intelligentes ou libres</li>
+            <li>Suivi des vaccins</li>
+            <li>Prises de photo</li>
+            <li>Scan de documents externes</li>
+            <li>Edition de courriers et d'ordonnances</li>
+            <li>Catégorisation des notes</li>
+            <li>Filtres simples et efficaces</li>
+            </p>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <a href="/assets/PatSuiviMed.PNG" target="_blank"><img src="/assets/PatSuiviMed.PNG" class="w-100 screenshot"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr/>
+  <section class="odd">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <a href="/assets/Param.PNG" target="_blank"><img src="/assets/Param.PNG" class="w-100 screenshot"></a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2>Votre application personnalisable</h2>
+          <ul>
+            <li>Personnalisation des types de notes</li>
+            <li>Choix des constantes à suivre</li>
+            <li>Signature numérique certifiée</li>
+            <li>Personnalisation de l'ordonnance</li>
+            <li>Gestion des utilisateurs du "Cabinet"</li>
+         </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr/>
+  <section class="even">
+    <div class="container-fluid">
+      <h2 class="text-center">Blog</h2>
+      {% include blog.html %}
+    </div>
+  </section>
 </div>
