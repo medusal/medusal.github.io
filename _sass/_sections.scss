@@ -34,8 +34,8 @@ section {
       width: 100%;
       height: 180%;
       bottom: 0;
-      transform: skewY(-12deg);
-      background: linear-gradient(140deg, $brand-primary, #9c92ac);
+      //transform: skewY(-12deg);
+      background: linear-gradient(140deg, $brand-primary, #01abce);
       // background: linear-gradient(140deg, $brand-primary , darken($brand-primary, 10%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
   }
