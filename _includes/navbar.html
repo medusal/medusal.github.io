@@ -2,6 +2,7 @@
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#main-nav">
       ☰&nbsp;Menu
     </button>
+    <img src="/assets/ICONE-MEDUSAL.png" height="30px" class="mx-auto d-block"/>&nbsp;
     {% if page.url == '/' %}
       <a class="navbar-brand active" href="/">Medusal</a>
     {% else %}
@@ -9,7 +10,6 @@
     {% endif %}
     <div class="navbar-collapse collapse" id="main-nav">
       <ul class="navbar-nav mr-auto">
-        <!--<img src="/assets/CHARTE-1.png" height="50px" class="mx-auto d-block"/>-->
         {% assign pages = site.pages | sort:"weight"  %}
         {% assign page_url_array = page.url | split:'/' | index[1] %}
         {% for my_page in pages %}

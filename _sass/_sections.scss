@@ -3,7 +3,7 @@ section {
   padding-top: 2rem;
 
   &.odd {
-    background-color: #01abce;
+    background-color: #0EABCC;
    // background-image: url("/assets/CHARTE-1.png") no-repeat
   }
 
@@ -13,7 +13,7 @@ section {
 
   &.green-light {
     background: radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623);
-    color: #1ea623;
+    color: #8CD167;
   }
 
   &.blue {
@@ -36,7 +36,7 @@ section {
       height: 180%;
       bottom: 0;
       //transform: skewY(-12deg);
-      background: linear-gradient(140deg, $brand-primary, #01abce);
+      background: linear-gradient(140deg, $brand-primary, #0EABCC);
       // background: linear-gradient(140deg, $brand-primary , darken($brand-primary, 10%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
   }
